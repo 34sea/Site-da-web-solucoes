@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*:not(i,span){
+    font-family: "Poppins", sans-serif;
+}
+
+
+:root{
+    --paragrafos: #222;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    color: var(--paragrafos);
+}
+
+body{
+    background-color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0px 100px;
+    justify-content: space-between;
+    border: 0px solid black;
+    width: calc(100% - 200px);
+}
+
+.info img{
+    width: 12px;
+}
+
+.redesInfo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.redesInfo a{
+    display: flex;
+    align-items: center;
+}
+
+.contatosInfos ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contatosInfos ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contatosInfos ul li span{
+    font-size: 11px;
+    color: #adadad;
+    font-weight: normal;
+}
+
+.imagensSlide{
+    height: calc(100vh - 30px);
+    background-image: url(../imgs/banner/b2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center!important;
+    justify-content: flex-start!important;
+    padding: 0px 100px;
+    position: relative;
+
+}
+
+nav{
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    z-index: 999;
+    width: calc(100% - 200px);
+    align-items: center;
+    border: 0px solid black;
+}
+
+.logoMenu{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    border: 0px solid #fff;
+}
+
+.logoMenu ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoMenu li a{
+    color: #fff;
+    font-size: 13px;
+    font-weight: normal;
+    opacity: 100%;
+}
+
+.logo img{
+    width: 120px;
+}
+
+.btnContatos a{
+    width: 190px;
+    height: 22px;
+    border: 1px solid #fff;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-weight: normal;
+    font-size: 13px;
+    opacity: 100%;
+}
+
+.slide{
+    position: relative;
+}
+
+.blinhas{
+    position: absolute;
+    border: 0px solid #fff;
+    height: 100px;
+    width: 20px;
+    top: 50%;
+    right: 100px;
+}
+
+.blinhas ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.blinhas ul li{
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+
+.blinhas ul li:nth-child(1){
+    background-color: #fff;
+}
+
+.blinhas ul li:hover{
+    background-color: #00D084;
+    border: 1px solid #00D084;
+    transition: all .3s ease;
+}
+
+.textoPublicidadeBannner{
+    width: 600px;
+    top: 0px;
+    left: 100px;
+    border: 0px solid black;
+    transition: all .7s ease;
+}
+
+
+.textoPublicidadeBannner p, .textoPublicidadeBannner div, .textoPublicidadeBannner h2{
+    color: #fff;
+}
+
+.textoPublicidadeBannner div{
+    color: #fff;
+}
+
+.textoPublicidadeBannner span{
+    color: #00D084;
+}
+
+.textoPublicidadeBannner h2{
+    font-size: 1rem;
+    font-weight:  normal;
+}
+
+.textoPublicidadeBannner p{
+    font-size: 3rem;
+    color: #00D084;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
+.textoPublicidadeBannner div{
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.imgsRolando{
+    display: flex;
+    overflow: hidden;
+    width: 300%;
+    justify-content: flex-start;
+    transition: all .5s ease;
+}
+
+.imagensSlide{
+    transition: all .5s ease;
+    width: 100%;
+    overflow: hidden;
+}
+
+.imagensSlide:first-child{
+
+}
+
+.imagensSlide:nth-child(2){
+    background-image: url(../imgs/banner/b1.jpeg);
+}
+
+.kfj{
+    width: 100%;
+    overflow: hidden;
+}
+
+.textoPublicidadeBannner p b{
+    color: #00D084;
+}
+
+.imagensSlide:nth-child(2) h2{
+    color: #222;
+    font-weight: 700;
+}
+
+.imagensSlide:nth-child(2) p{
+    color: #fff;
+}
+
+.imagensSlide:nth-child(2) span{
+    color: #222;
+    font-weight: 700;
+}

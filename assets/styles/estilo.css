@@ -5,7 +5,8 @@
 
 
 :root{
-    --paragrafos: #222;
+    --paragrafos: #404040;
+    --principal: #00D084;
 }
 
 *{
@@ -61,7 +62,7 @@ ul{
 .contatosInfos ul li{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
 
 .contatosInfos ul li span{
@@ -72,7 +73,7 @@ ul{
 
 .imagensSlide{
     height: calc(100vh - 30px);
-    background-image: url(../imgs/banner/b2.jpeg);
+    background-image: url(../imgs/banner/l1.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,16 +86,18 @@ ul{
 }
 
 nav{
-    padding: 0px 100px;
+    padding: 5px 100px;
     display: flex;
     justify-content: space-between;
     position: absolute;
-    top: 70px;
+    top: 60px;
     left: 0px;
     z-index: 999;
     width: calc(100% - 200px);
     align-items: center;
     border: 0px solid black;
+    transition: all .2s ease;
+    
 }
 
 .logoMenu{
@@ -115,6 +118,9 @@ nav{
     font-size: 13px;
     font-weight: normal;
     opacity: 100%;
+}
+.linkMuda:hover{
+    color: var(--principal);
 }
 
 .logo img{
@@ -232,7 +238,11 @@ nav{
 }
 
 .imagensSlide:nth-child(2){
-    background-image: url(../imgs/banner/b1.jpeg);
+    background-image: url(../imgs/banner/l2.jpeg);
+}
+
+.imagensSlide:nth-child(3){
+    background-image: url(../imgs/banner/l3.png);
 }
 
 .kfj{
@@ -256,4 +266,193 @@ nav{
 .imagensSlide:nth-child(2) span{
     color: #222;
     font-weight: 700;
+}
+
+.apresetacao{
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.apresetacao .imgRepre{
+    margin-right: 40px;
+}
+
+.apresetacao .imgRepre img{
+    width: 600px;
+}
+
+.corpoApresentaocao h2{
+    font-size: 2.2rem;
+    line-height: 45px;
+    width: 400px;
+    color: #263238;
+}
+
+.corpoApresentaocao p{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #777777;
+}
+
+.btnSolucoes{
+    border-radius: 20px;
+
+    width: 250px!important;
+    height: 40px;
+    background-color: var(--principal);
+    border: 0px;
+    outline: var(--principal);
+    color: #fff;
+    font-size: 14px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    border: 2px solid var(--principal);
+}
+
+.btnSolucoes:hover{
+    border: 2px solid #00D084;
+    background-color: #fff;
+    color: var(--principal);
+    transition: all .3s ease;
+}
+
+.servicos{
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.servicos h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--principal);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.servicos p{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #777777;
+    width: 800px;
+}
+
+.defire{
+    padding: 70px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.bolinhaSite img{
+    width: 250px;
+}
+
+.defire ul li{
+    width: 200px;
+    margin-left: 10px;
+}
+
+.defire ul li h2{
+    font-size: 4rem;
+    color: #222;
+}
+
+.defire ul li h3{
+    font-size: 1rem;
+    color: #222;
+}
+
+.defire ul li p{
+    color: #777;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.def ul{
+    display: flex;
+    align-items: flex-start;
+}
+.def ul li:nth-child(2){
+    margin-top: 50px;
+}
+
+.def ul li:nth-child(3){
+    margin-top: 50px;
+}
+
+footer{
+    background-color: var(--principal);
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+footer ul li a{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    opacity: 100%;
+    font-weight: normal;
+    opacity: 100%;
+    
+}
+
+.tracoF{
+    height: 1px;
+    background-color: #ddd;
+    border: 0px solid #222;
+    opacity: 60%;
+}
+
+.assiDev{
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+}
+
+.servicos2{
+    background-image: url(../imgs/banner/fd.jpeg);
+    background-position: end;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center!important;
+    justify-content: center!important;
+
+}
+
+.servicos2 h2{
+    color: #fff;
+    width: 400px;
+}
+
+.servicos2 p{
+    width: 1000px;
+    color: #fff;
+    font-size: 13px;
 }

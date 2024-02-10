@@ -92,13 +92,11 @@ function linM(cor){
     }
 }
 document.addEventListener("scroll", ()=>{
-    console.log(window.pageYOffset)
     if(window.pageYOffset>=100){
         nav.style.position = "fixed"
         nav.style.background = "#fff"
         nav.style.top = "0px"
         // barraPesquisa.style.position = "fixed"
-        console.log("Ya")
         logoChange.src = "./assets/imgs/Logo/logoVerde.png"
         btnContact.style.border = "1px solid #00D084"
         btnContact.style.color = "#00D084"
@@ -109,7 +107,6 @@ document.addEventListener("scroll", ()=>{
         nav.style.background = "rgba(0, 0, 0, 0)"
         nav.style.top = "60px"
         // barraPesquisa.style.position = "static"
-        console.log("Nop")
         logoChange.src = "./assets/imgs/Logo/logoBranco.png"
         btnContact.style.border = "1px solid #ffffff"
         linM("#fff")
@@ -118,3 +115,26 @@ document.addEventListener("scroll", ()=>{
 
     }
 })
+
+// let bor = window.document.querySelectorAll(".bor")
+// let ca = window.document.querySelector(".ca")
+// for(let i=0; i<bor.length; i++){
+//     bor[i].addEventListener("click", ()=>{
+        
+//         if(i==0){
+//             ca.style.flexDirection = "row"
+//             bor[i].backgroundColor = "#00D084"
+//             bor[i].border = "1px solid #00D084"
+//             bor[1].border = "1px solid #adadad"
+//             bor[1].backgroundColor = "rgba(0, 0, 0, 0)"
+//             console.log(i)
+//         }else{
+//             ca.style.flexDirection = "row-reverse"
+//             bor[i].backgroundColor = "#00D084"
+//             bor[0].backgroundColor = "rgba(0, 0, 0, 0)"
+//             bor[i].border = "1px solid #00D084"
+//             bor[0].border = "1px solid #adadad"
+//             console.log(i)
+//         }
+//     })
+// }

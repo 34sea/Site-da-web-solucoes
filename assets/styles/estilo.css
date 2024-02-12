@@ -466,15 +466,32 @@ footer ul li a{
     height: 300px;
     width: 300px;
     border: 0px solid black;
-    cursor: pointer;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+    position: relative;
 }
 
+.tituloCardCar{
+    position: absolute;
+    bottom: 20px;
+    transform: rotatey(180deg);
+    color: #fff;
+    z-index: 0;
+    
+}
+
+.car a:hover{
+    border: 2px solid #00D084;
+    background-color: #fff;
+    color: var(--principal);
+    transition: all .3s ease;
+}
 
 
 .cards{
@@ -484,35 +501,97 @@ footer ul li a{
 }
 
 .conteinerCard .card .car{
-    height: 0px;
-    width: 0px;
-    border: 0px solid black;
-    background-color: #222;
-    transition: all .5s ease;
-    
-}
-
-.conteinerCard .card:hover .car{
     height: 300px;
-    width: 300px;
+    width: calc(300px - 15px);
     border: 0px solid black;
     background-color: #222;
-    transition: all .5s ease;
+    transition: all .5s ease-in-out;
+    visibility: hidden;
+    overflow: hidden;
+    /* transform: rotateY(180deg); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 15px;
+    z-index: 1;
+}
+
+.fotoCar{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 100%;
+    border: 0px solid black;
+    margin-top: 10px;
+}
+.fotoCar img{
+    width: 150%;
+}
+
+.conteCar{
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 13px;
+    color: #777;
+}
+
+.car a{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: var(--principal);
+    color: #fff;
+    font-size: 13px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.perf{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 0px solid black;
+    justify-content: center;
+    flex-direction: column;
+}
+.perf h2{
+    font-size: 1rem;
+    color: #222;
+}
+.conteinerCard .cardfh:hover .card .car{
+    height: 300px;
+    /* width: 300px; */
+    border: 2px dashed var(--principal);
+    background-color: #222;
+    transition: all 0.5s ease-in-out;
+    /* transform: rotateY(0deg); */
+    border-radius: 10px;
+    background-color: #fff;
+    visibility: visible;
+    
+}
+.conteinerCard .cardfh:hover .tituloCardCar{
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
     
 }
 
-.conteinerCard .card:hover{
-    background-color: #00D084;
+.conteinerCard .cardfh:hover .card{
+    background-color: #fff;
     background-image: none;
-    transition: all .5s ease;
+    transition: all 0.5s ease-in-out;
+    transform: rotateY(0deg);
+    border-radius: 10px;
 }
 
-.conteinerCard .card:hover .car{
-    transform: rotate(180deg);
-    
-    background-color: #00D084;
-    /* transform: translate(100px, 200px); */
-}
+
 
 .bolinhasCards{
     display: flex;

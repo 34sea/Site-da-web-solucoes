@@ -138,3 +138,85 @@ document.addEventListener("scroll", ()=>{
 //         }
 //     })
 // }
+
+
+// function slideCleuylar(i, con) {
+//     console.log(i)
+//     console.log(capaCelular.length)
+//     console.log("con = "+con)
+//     if(i<capaCelular.length && i>=0){
+//         if(con){
+//             cond = false
+//             capaCelular[0].style.height = "0px"
+//             capaCelular[0].style.visibility = "hidden"
+//         }else{
+//             capaCelular[0].style.height = "450px"
+//             capaCelular[0].style.visibility = "visible"
+//             cond = true
+//         }
+//     }else{
+//         pos=0
+//     }
+// }
+
+let silideCelular = window.document.querySelector(".silideCelular")
+let capaCelular = document.querySelectorAll(".capaCelular")
+let cond = true
+let pos = 0
+
+let tmpK = ""
+let textdesfa = window.document.querySelectorAll(".textdesfa")
+let tituloSolucao = window.document.querySelectorAll(".tituloSolucao")
+let logoFotos = window.document.querySelectorAll(".logoFotos")
+
+function zerarConfig() {
+    for(let i=0; i<textdesfa.length; i++){
+        textdesfa[i].style.boxShadow = "rgba(99, 99, 99, 0) 2px 1px 2px 1px"
+        tituloSolucao[i].style.textShadow = "1px 3px 3px rgba(0, 0, 0, 0)"
+        logoFotos[i].style.border = "2px solid #ddd"
+        logoFotos[i].style.boxShadow = "rgba(0, 0, 0, 0) 0px 4px 8px -1px, rgba(0, 0, 0, 0.06) 0px 2px 8px -1px"
+    }
+}
+
+function slideVhd() {
+    zerarConfig() 
+    if(cond){
+        
+        if(pos<=1){
+            capaCelular[pos].style.height = "0px"
+            capaCelular[pos].style.visibility = "hidden"
+            pos++
+            textdesfa[pos].style.boxShadow = "rgba(99, 99, 99, 0.2) 2px 1px 2px 1px"
+            tituloSolucao[pos].style.textShadow = "1px 3px 3px rgba(0, 0, 0, 0.2)"
+            logoFotos[pos].style.border = "2px solid #ddd"
+            logoFotos[pos].style.boxShadow = "rgba(0, 0, 0, 0.2) 0px 4px 8px -1px, rgba(0, 0, 0, 0.06) 0px 2px 8px -1px"
+        }else{
+            pos=1
+            cond = false
+        }
+    }else{
+        if(pos>=0 && pos<=1){
+            textdesfa[pos].style.boxShadow = "rgba(99, 99, 99, 0.2) 2px 1px 2px 1px"
+            tituloSolucao[pos].style.textShadow = "1px 3px 3px rgba(0, 0, 0, 0.2)"
+            logoFotos[pos].style.border = "2px solid #ddd"
+            logoFotos[pos].style.boxShadow = "rgba(0, 0, 0, 0.2) 0px 4px 8px -1px, rgba(0, 0, 0, 0.06) 0px 2px 8px -1px"
+            capaCelular[pos].style.height = "450px"
+            capaCelular[pos].style.visibility = "visible"
+            pos--
+            
+            
+        }else{
+            pos=0
+            cond = true
+        }
+    }
+    console.log('jdsjd  '+pos)
+}
+
+silideCelular.addEventListener("mouseover", ()=>{
+    tmpK = setInterval(slideVhd, 3000)
+})
+
+silideCelular.addEventListener("mouseout", ()=>{
+    clearInterval(tmpK)
+})

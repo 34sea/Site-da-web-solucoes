@@ -98,8 +98,8 @@ document.addEventListener("scroll", ()=>{
         nav.style.top = "0px"
         // barraPesquisa.style.position = "fixed"
         logoChange.src = "./assets/imgs/Logo/logoVerde.png"
-        btnContact.style.border = "1px solid #00D084"
-        btnContact.style.color = "#00D084"
+        btnContact.style.border = "1px solid #222"
+        btnContact.style.color = "#222"
         linM("#000000")
         nav.style.boxShadow = "0 2px 2px rgba(0,0,0,.02),0 2px 2px rgba(0,0,0,.02)"
     }else{

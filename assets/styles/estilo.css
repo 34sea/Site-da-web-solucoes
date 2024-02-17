@@ -129,7 +129,7 @@ nav{
 }
 
 .nav li{
-    margin-right: 20px;
+    margin-right: 22px;
 }
 
 .nav li:last-child{
@@ -300,10 +300,10 @@ nav{
 }
 
 .corpoApresentaocao h2{
-    font-size: 2.2rem;
+    font-size: 1.5rem;
     line-height: 45px;
     width: 400px;
-    color: #263238;
+    color: #222;
 }
 
 .corpoApresentaocao p{
@@ -340,7 +340,8 @@ nav{
 }
 
 .servicos{
-    padding: 50px 200px;
+    margin-top: 120px;
+    padding: 0px 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -348,7 +349,7 @@ nav{
 }
 
 .servicos h2{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: #222;
     text-align: center;
@@ -358,7 +359,7 @@ nav{
 .servicos p{
     text-align: center;
     margin-top: 5px;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 25px;
     color: #777777;
     width: 800px;
@@ -368,42 +369,81 @@ nav{
     
     display: flex;
     justify-content: center;
-    background-image: url(../imgs/any/homepage-invest.jpg);
+    background-image: url(../imgs/any/bannnerPuv2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
+    height: 600px;
 }
 .abrigaDefire{
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 70px 100px;
     background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
+    flex-direction: column;
+}
+
+.bolinhaSite h2, .bolinhaSite p{
+    color: #fff;
+    text-align: center;
+    opacity: 90%;
+}
+
+.bolinhaSite p{
+    width: 700px;
+    font-size: 13px;
+}
+
+.bolinhaSite h2{
+    font-size: 1.5rem;
 }
 
 .bolinhaSite img{
     width: 250px;
 }
 
+.defire ul{
+    margin-top: 50px;
+}
+
 .defire ul li{
-    width: 200px;
-    margin-left: 10px;
+    width: 218px;
+    margin-left: 40px;
+    background-color: #fff;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 15px;
+    border-radius: 5px;
 }
 
 .defire ul li h2{
     font-size: 4rem;
     color: #222;
+    display: none;
 }
 
 .defire ul li h3{
     font-size: 1rem;
     color: #222;
+    text-align: center;
 }
 
 .defire ul li p{
     color: #777;
     font-size: 13px;
     margin-top: 10px;
+    text-align: center;
+    border: 0px solid black;
+    height: 90px;
+    width: 190px;
+    word-wrap: break-word;
+    hyphens: auto;
 }
 
 .def ul{
@@ -411,11 +451,11 @@ nav{
     align-items: flex-start;
 }
 .def ul li:nth-child(2){
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 .def ul li:nth-child(3){
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 footer{
@@ -666,6 +706,7 @@ footer ul li a{
 
 .clientesServicos h2{
     color: #222;
+    font-size: 1.5rem;
 }
 
 .parceiros ul{
@@ -795,7 +836,7 @@ footer ul li a{
 }
 
 .silideCelular{
-    padding: 60px 200px;
+    padding: 100px 200px;
     border: 0px solid black;
     min-height: 200px;
     display: flex;
@@ -807,9 +848,9 @@ footer ul li a{
 .celularSlide{
     margin-left: 40px;
     height: 550px;
-    width: 240px;
+    width: 270px;
     border: 0px solid black;
-    background-image: url(../imgs/any/celularMock.png);
+    background-image: url(../imgs/any/celularMockv3.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -820,7 +861,7 @@ footer ul li a{
 
 .capaCelular{
    
-    height: 450px;
+    height: 540px;
     width: 100%;
     border: 0px solid black;
     
@@ -828,17 +869,20 @@ footer ul li a{
     background-repeat: no-repeat;
     background-size:cover;
     transition: all .5s ease;
+    /* margin-bottom: 50px; */
 }
 
 .cellSlidesd{
-    height: 450px;
+    height: 520px;
     margin-left: 4px;
-    margin-top: 4px;
-    width: 215px;
+    margin-top: 2px;
+    width: 245px;
     position: relative;
-    border-radius: 25px;
+    border-radius: 30px;
     overflow: hidden;
     transition: all .5s ease;
+    border: 0px solid red;
+   
 }
 
 .conteuDTex{
@@ -863,9 +907,9 @@ footer ul li a{
 
 .conteuDTex h2{
     display: block;
-    margin-top: 31px;
+    margin-top: 5px;
     margin-bottom: 30px;
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-align: center;
     color: #222;
 }
@@ -879,6 +923,7 @@ footer ul li a{
     border: 0px solid black;
     justify-content: space-between;
     margin-top: 20px;
+    transition: all .5s ease;
 }
 
 .conteuDTex ul li .logoFotos{
@@ -895,7 +940,7 @@ footer ul li a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
-
+    transition: all .5s ease;
 }
 
 .conteuDTex ul li:nth-child(2) .logoFotos{
@@ -913,7 +958,7 @@ footer ul li a{
     padding-left: 15px;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
-    
+    transition: all .5s ease;
 }
 
 .conteuDTex ul li:nth-child(1) .textdesfa{
@@ -938,20 +983,30 @@ footer ul li a{
     font-size: 12px;
     width: calc(100% - 100px);
     color: #777;
+    transition: all .5s ease;
 }
 
 .soluCld{
-    font-size: 1rem;
+    font-size: 14px;
     color: #222;
+    transition: all .5s ease;
+}
+
+.soluCld p{
+    font-size: 12px;
+    color: #777;
+    font-weight: 500;
+    transition: all .5s ease;
 }
 
 .lastTextos{
     border: 0px solid white;
     width: 500px;
+    transition: all .5s ease;
 }
 
 .iconsServicos{
-    height: 300px;
+    height: 250px;
     border: 0px solid black;
 }
 
@@ -962,7 +1017,7 @@ footer ul li a{
 }
 
 .iconsServicos li{
-    width: 200px;
+    width: 250px;
     height: 200px;
     border: 0px solid black;
     margin-right: 20px;
@@ -978,7 +1033,7 @@ footer ul li a{
 }
 
 .iconsServicos ul li a{
-    width: 200px;
+    min-width: 250px;
     height: 190px;
     border: 0px solid black;
     display: flex;
@@ -990,10 +1045,17 @@ footer ul li a{
 
 .iconOferecer{
     margin-top: 10px;
-    border: 1px solid black;
+    border: 0px solid black;
     width: 50px;
     height: 50px;
     border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconOferecer img{
+    width: 100%;
 }
 
 .iconsServicos ul li a h3{
@@ -1003,13 +1065,20 @@ footer ul li a{
 }
 
 .iconsServicos ul li a p{
-    width: 180px;
+    width: 235px;
     height: 80px;
     border: 0px solid black;
     margin-top: 10px;
     overflow: hidden;
     text-align: center;
-    font-size: 13px;
+    font-size: 12px;
     color: #777;
     font-weight: 400;
+    word-wrap: break-word;
+    hyphens: auto;
 }
+
+.paragrafoServico{
+    
+}
+

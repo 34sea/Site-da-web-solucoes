@@ -200,7 +200,7 @@ function slideVhd() {
             tituloSolucao[pos].style.textShadow = "1px 3px 3px rgba(0, 0, 0, 0.2)"
             logoFotos[pos].style.border = "2px solid #ddd"
             logoFotos[pos].style.boxShadow = "rgba(0, 0, 0, 0.2) 0px 4px 8px -1px, rgba(0, 0, 0, 0.06) 0px 2px 8px -1px"
-            capaCelular[pos].style.height = "450px"
+            capaCelular[pos].style.height = "540px"
             capaCelular[pos].style.visibility = "visible"
             pos--
             

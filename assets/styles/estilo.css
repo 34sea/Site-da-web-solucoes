@@ -460,17 +460,8 @@ nav{
     margin-top: 0px;
 }
 
-footer{
-    background-color: #f2f2f2;
-    min-height: 120px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 100px;
-    gap: 15px;
-    justify-content: center;
-    margin-top: 0px;
-}
 
+/* 
 footer ul{
     list-style: none;
     display: flex;
@@ -502,7 +493,7 @@ footer ul li a{
     color: #616161;
     text-align: center;
     font-weight: 500;
-}
+} */
 
 .servicos2{
     background-image: url(../imgs/banner/fd.jpeg);
@@ -1376,14 +1367,82 @@ footer ul li a{
     border: 0px solid black;
     height: 100px;
     margin-top: 20px;
+    border-top: 1px solid #f5f5f5;
+    padding-top: 20px;
+    
 }
 
-.citacaoFrase p{
-    font-size: 14px;
+.citacaoFrase .citaPara{
+    font-size: 13px;
     text-align: justify;
+    line-height: 20px;
+    position: relative;
+    border: 0px solid black;
+    padding: 10px 0px;
+    padding-left: 10px;
+    color: #777;
 }
 
-.citacaoFrase b{
+.citacaoFrase .aspas{
     color: var(--principal);
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    font-weight: normal;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.citacaoFrase .aspas:first-child{
+    left: -5px;
+    top: 15px;
+    color: var(--principal);
+}
+
+.citacaoFrase .aspas:last-child{
+    bottom: 0px;
+    right: 0px;
+    color: var(--principal);
+    display: none;
+}
+
+
+footer{
+    background-color: #2e3641;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul{
+    height: 280px;
+}
+
+.barrV{
+    height: 15px;
+    background-color: #fff;
+    display: none;
+}
+
+.assinCita{
+    margin-top: 10px;
+    border: 0px solid black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.assinaturaCitacao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.assinaturaCitacao span:first-child{
+    color: #222;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.assinaturaCitacao span:last-child{
+    font-size: 10px;
+    color: var(--principal);
 }

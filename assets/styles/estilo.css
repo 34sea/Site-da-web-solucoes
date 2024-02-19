@@ -91,6 +91,8 @@ ul{
 
 }
 
+
+
 nav{
     padding: 5px 200px;
     display: flex;
@@ -109,14 +111,14 @@ nav{
 .logoMenu{
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 0px;
     border: 0px solid #fff;
 }
 
 .nav ul{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 0px;
 }
 
 .nav li a{
@@ -466,7 +468,7 @@ footer{
     padding: 20px 100px;
     gap: 15px;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 0px;
 }
 
 footer ul{
@@ -707,6 +709,71 @@ footer ul li a{
 .clientesServicos h2{
     color: #222;
     font-size: 1.5rem;
+}
+
+.clientesServicos{
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 50px;
+    
+}
+
+.parceiros{
+    background-color: #f5f5f5;
+}
+
+.quemSomos{
+    background-color: #f5f5f5;
+    min-height: 400px;
+    border-top: 1px solid #ddd;
+    margin-top: 60px;
+    padding: 100px 0px;
+}
+
+.quemDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0px solid black;
+    height: 350px;
+    padding: 0px 200px;
+}
+
+.textoQuemSomos{
+    border: 0px solid black;
+    width: calc(100% - 580px);
+    margin-left: 30px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textoQuemSomos h2{
+    font-size: 1.5rem;
+    color: #222;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.textoQuemSomos p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 35px;
+    color: #777;
+    text-transform: capitalize;
+}
+
+.imagemQuemSomos{
+    width: 600px;
+    height: 400px;
+    border: 0px solid black;
+    background-image: url(../imgs/any/retratov2.png);
+    background-position: start;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2px;
 }
 
 .parceiros ul{
@@ -1082,3 +1149,241 @@ footer ul li a{
     
 }
 
+.humburguer{
+
+    width: 25px;
+    min-height: 0px;
+    display: none;
+    border: 0px solid white;
+}
+
+.humburguer span{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    border-radius: 0px;
+    margin-top: 5px;
+
+    border-radius: 10px;
+    
+}
+
+.humburguer label{
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.contatoSec{
+    min-height: 300px;
+    border: 0px solid black;
+    padding: 60px 200px;
+    margin-top: 20px;
+    border-top: 1px solid #f5f5f5;
+    box-shadow: rgba(0, 0, 0, 0.03) 0px 2px 2px 0px inset;
+}
+
+.contatoSec .vontacteS h2{
+    text-align: center;
+    color: #222;
+    font-size: 1.5rem;
+}
+
+.contatoSec .vontacteS p{
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.formularioContacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.formularioContacto form .inpuEnMsg{
+    display: flex;
+    border: 0px solid black;
+    height: 150px;
+}
+
+.formularioContacto form .inpuEnMsg .inputsNor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20px;
+    
+}
+
+.formularioContacto form .inpuEnMsg textarea{
+    width: 350px;
+    max-width: 350px;
+    min-width: 350px;
+    max-height: 135px;
+    min-height: 135px;
+    text-indent: 15px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    padding-top: 15px;
+    color: #ccc;
+}
+
+.formularioContacto form .inpuEnMsg .inputsNor input{
+    height: 35px;
+    width: 350px;
+    text-indent: 15px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    
+    color: #ccc;
+}
+
+.formularioContacto form .inpuEnMsg .inputsNor input:focus, .formularioContacto form .inpuEnMsg textarea:focus{
+    outline: 1px solid #999;
+    border: 0px solid #ccc;
+    transition: all 0s ease;
+}
+
+.kjdBtn{
+    border: 0px solid black;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.kjdBtn input{
+    width: 190px;
+    height: 28px;
+    border: 0px;
+    background-color: var(--principal);
+    color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.faqRed{
+    padding: 60px 200px;
+    margin-top: 40px;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.faqPer{
+    border: 0px solid black;
+    width: calc(100% - 400px);
+    height: 300px;
+}
+
+
+
+.faqPer h2{
+    font-size: 1.5rem;
+    color: #222!important;
+    margin-bottom: 20px;
+}
+
+.faqPer ul li{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    height: 40px;
+    padding: 10px 15px;
+    border-radius: 2px;
+}
+
+.faqPer ul li .textoFaq{
+    font-size: 13px;
+    margin-left: 20px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.iconExpandi{
+    color: var(--principal);
+    font-weight: 500;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.iconExpandi:hover{
+    transform: rotate(135deg);
+    transition: all .4s ease-in-out;
+}
+
+.faqPer ul li{
+    margin-top: 15px;
+}
+
+.faqPer ul li:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    transition: all .4s ease;
+}
+
+.redesFa{
+    border: 0px solid black;
+    height: 300px;
+    width: 380px;
+    margin-left: 40px;
+}
+
+.redesFa h3{
+    font-size: 12px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.redesFa ul li{
+    background-color: #eee;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.redesFa ul{
+    display: flex;
+}
+
+.redesFa ul li a{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redesFa ul li a img{
+    width: 20px;
+}
+
+.citacaoFrase{
+    border: 0px solid black;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.citacaoFrase p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.citacaoFrase b{
+    color: var(--principal);
+    font-size: 1.5rem;
+}

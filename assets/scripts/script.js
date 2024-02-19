@@ -52,7 +52,7 @@ function slide(i) {
         textoPublicidadeBannner[2].style.position = "static"
         imgsRolando.style.width = `300%`
         textoPublicidadeBannner[0].style.position = "absolute"
-        textoPublicidadeBannner[0].style.top = "30%"
+        textoPublicidadeBannner[0].style.top = "35%"
     }else if(i==1){
         tam-=100
         textoPublicidadeBannner[0].style.top = "0%"
@@ -64,7 +64,7 @@ function slide(i) {
         imgsRolando.style.width = `200%`
         tempoConta--
         textoPublicidadeBannner[1].style.position = "absolute"
-        textoPublicidadeBannner[1].style.top = "30%"
+        textoPublicidadeBannner[1].style.top = "35%"
 
     }else if(i==2){
         tam-=100
@@ -78,7 +78,7 @@ function slide(i) {
         imgsRolando.style.flexDirection= "row-reverse"
         tempoConta--
         textoPublicidadeBannner[2].style.position = "absolute"
-        textoPublicidadeBannner[2].style.top = "30%"
+        textoPublicidadeBannner[2].style.top = "35%"
     }
 }
 

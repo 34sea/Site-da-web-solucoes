@@ -376,15 +376,15 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
-    height: 600px;
+    min-height: 600px;
 }
 .abrigaDefire{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 70px 100px;
+    padding: 70px 200px;
     background-color: rgba(0, 0, 0, 0.4);
-    width: 100%;
+    width: calc(100% - 400px);
     flex-direction: column;
 }
 
@@ -422,6 +422,10 @@ nav{
     flex-direction: column;
     padding: 10px 15px;
     border-radius: 5px;
+}
+
+.defire ul li:first-child{
+    margin-left: 0px;
 }
 
 .defire ul li h2{
@@ -726,8 +730,13 @@ footer ul li a{
     align-items: center;
     justify-content: space-between;
     border: 0px solid black;
-    height: 350px;
+    min-height: 350px;
     padding: 0px 200px;
+}
+
+.quemDiv h2{
+    margin-bottom: 30px;
+    display: none;
 }
 
 .textoQuemSomos{
@@ -746,6 +755,7 @@ footer ul li a{
     color: #222;
     text-align: center;
     margin-bottom: 15px;
+    display: block;
 }
 
 .textoQuemSomos p{
@@ -985,8 +995,8 @@ footer ul li a{
 }
 
 .conteuDTex ul li .logoFotos{
-    width: 120px;
-    height: 60px;
+    width: 75px;
+    height: 75px;
     border: 1px solid #ddd;
     overflow: hidden;
     border-radius: 100%;
@@ -1010,6 +1020,8 @@ footer ul li a{
 }
 
 .conteuDTex ul li .textdesfa{
+    width: calc(100% - 100px);
+    border: 0px solid red;
     display: flex;
     flex-direction: column;
     padding: 10px 0px;
@@ -1026,7 +1038,7 @@ footer ul li a{
 }
 
 .conteuDTex ul li:nth-child(1) .logoFotos{
-    border: 2px solid #ddd;
+    border: 2px solid var(--principal);
     box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px -1px, rgba(0, 0, 0, 0.06) 0px 2px 8px -1px;
 }
 
@@ -1072,7 +1084,10 @@ footer ul li a{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0px 200px;
 }
+
+
 
 .iconsServicos li{
     width: 250px;
@@ -1087,7 +1102,11 @@ footer ul li a{
 
 .iconsServicos ul{
     display: flex;
-
+    border: 0px solid black;
+    width: 100%;
+    overflow: hidden;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .iconsServicos ul li a{
@@ -1146,6 +1165,10 @@ footer ul li a{
     min-height: 0px;
     display: none;
     border: 0px solid white;
+    top: -50px;
+    left: 15px;
+    transition: all .4s ease;
+    z-index: 99999;
 }
 
 .humburguer span{
@@ -1160,11 +1183,36 @@ footer ul li a{
 }
 
 .humburguer label{
+    
     display: flex;
     align-items: space-between;
     justify-content: center;
     flex-direction: column;
     cursor: pointer;
+}
+
+.menuSuspenso{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    z-index: 99999;
+    width: 0px;
+    overflow: hidden;
+    transition: all .4s ease;
+}
+
+.menuSuspenso ul{
+    height: 100vh;
+    width: 300px;
+    background-color: #fff;
+}
+
+.hund{
+    cursor: pointer;
+
 }
 
 .contatoSec{
@@ -1446,3 +1494,15 @@ footer ul{
     font-size: 10px;
     color: var(--principal);
 }
+
+.produtosWeb{
+    cursor: pointer;
+}
+
+.produtosWeb:hover{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 8px -1px, rgba(0, 0, 0, 0.06) 0px 2px 8px -1px;
+    transition: all .3s ease;
+    border-radius: 40px;
+    padding: 10px 20px;
+}
+

@@ -1,3 +1,1056 @@
+@media (max-width: 1344px){
+    .conteuDTex ul li .textdesfa{
+        width: calc(100% - 80px);
+    } 
+}
+
+@media (max-width: 1282px){
+    .conteuDTex{
+        border: 0px solid black;
+
+    }
+    .celularSlide{
+        margin-left: 40px;
+        /* height: 500px; */
+        width: 280px;
+        border: 0px solid black;
+    }
+    .silideCelular{
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 1282px){
+    .celularSlide{
+        margin-left: 40px;
+        /* height: 500px; */
+        width: 300px;
+        border: 0px solid black;
+    }
+    .capaCelular{
+   
+        height: 530px;
+    }
+    .cellSlidesd{
+        height: 530px;
+        margin-left: 4px;
+        margin-top: 2px;
+    }
+}
+
+
+@media (max-width: 1236px){
+    .celularSlide{
+        margin-left: 40px;
+        height: 600px;
+        width: 350px;
+        border: 0px solid black;
+        
+    }
+    .capaCelular{
+   
+        height: 570px;
+    }
+    .cellSlidesd{
+        height: 570px;
+        margin-left: 4px;
+        margin-top: 2px;
+        width: 93%;
+    }
+}
+
+@media (max-width: 1221px){
+    .celularSlide{
+        margin-left: 40px;
+        height: 700px;
+        width: 470px;
+        border: 0px solid black;
+        
+    }
+    .capaCelular{
+   
+        height: 660px;
+    }
+    .cellSlidesd{
+        height: 660px;
+        margin-left: 4px;
+        margin-top: 2px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 1209px){
+    .celularSlide{
+        margin-left: 40px;
+        height: 500px;
+        width: 300px;
+        background-size: 50%;
+    }
+    .capaCelular{
+   
+        height: 241px;
+    }
+    .cellSlidesd{
+        height: 241px;
+        margin-left: 2px;
+        margin-top: -1px;
+        width: 112px;
+        border-radius: 10px;
+    }
+}
+@media (max-width: 1194px){
+    .celularSlide{
+        margin-left: 40px;
+        height: 500px;
+        width: 300px;
+        background-size: 80%;
+    }
+    .silideCelular{
+        justify-content: space-between;
+    }
+    .capaCelular{
+   
+        height: 380px;
+    }
+    .cellSlidesd{
+        height: 380px;
+        margin-left: 2px;
+        margin-top: 0px;
+        width: 180px;
+        border-radius: 30px;
+    }
+}
+
+@media (max-width: 1165px){
+    .celularSlide{
+        margin-left: 40px;
+        height: 500px;
+        width: 250px;
+        background-size: 80%;
+    }
+    .silideCelular{
+        justify-content: space-between;
+    }
+    .capaCelular{
+   
+        height: 322px;
+    }
+    .cellSlidesd{
+        height: 322px;
+        margin-left: 2px;
+        margin-top: 0px;
+        width: 150px;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 1155px){
+    .celularSlide{
+        margin-left: 40px;
+        height: 500px;
+        width: 250px;
+        background-size: 90%;
+    }
+    .silideCelular{
+        justify-content: space-between;
+    }
+    .capaCelular{
+   
+        height: 355px;
+        
+    }
+    .cellSlidesd{
+        height: 355px;
+        margin-left: 2px;
+        margin-top: 0px;
+        width: 170px;
+        border-radius: 20px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 1139px){
+    .celularSlide{
+        margin-left: 40px;
+        height: 500px;
+        max-width: 250px;
+        background-size: 100%;
+    }
+    .silideCelular{
+        justify-content: space-between;
+    }
+    .capaCelular{
+   
+        height: 392px;
+        
+    }
+    .cellSlidesd{
+        height: 392px;
+        margin-left: 2px;
+        margin-top: 0px;
+        width: 180px;
+        border-radius: 20px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 1133px){
+    .celularSlide{
+        margin-left: 40px;
+        height: 500px;
+        max-width: 250px;
+        background-size: 100%;
+    }
+    .silideCelular{
+        justify-content: space-between;
+    }
+    .capaCelular{
+   
+        height: 380px;
+        
+    }
+    .cellSlidesd{
+        height: 380px;
+        margin-left: 2px;
+        margin-top: 0px;
+        width: 180px;
+        border-radius: 20px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 1114px){
+    .celularSlide{
+        margin-left: 40px;
+        height: 500px;
+        max-width: 250px;
+        background-size: 100%;
+    }
+    .silideCelular{
+        justify-content: space-between;
+    }
+    .capaCelular{
+   
+        height: 372px;
+        
+    }
+    .cellSlidesd{
+        height: 372px;
+        margin-left: 2px;
+        margin-top: 0px;
+        width: 180px;
+        border-radius: 20px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 1110px){
+    .celularSlide{
+        margin-left: 40px;
+        height: 500px;
+        max-width: 250px;
+        background-size: 100%;
+    }
+    .silideCelular{
+        justify-content: space-between;
+    }
+    .capaCelular{
+   
+        height: 100%;
+
+        
+    }
+    .cellSlidesd{
+        height: 94%;
+        margin-left: 2px;
+        margin-top: 0px;
+        width: 90%;
+        border-radius: 30px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 1064px){
+    .celularSlide{
+        margin-left: 40px;
+        height: 500px;
+        max-width: 250px;
+        background-size: 100%;
+    }
+    .silideCelular{
+        justify-content: space-between;
+    }
+    .capaCelular{
+   
+        height: 100%;
+
+        
+    }
+    .cellSlidesd{
+        height: 92%;
+        margin-left: 2px;
+        margin-top: 0px;
+        width: 90%;
+        border-radius: 30px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 1064px){
+    .celularSlide{
+        margin-left: 40px;
+        height: 500px;
+        max-width: 250px;
+        background-size: 100%;
+    }
+    .silideCelular{
+        justify-content: space-between;
+    }
+    .capaCelular{
+   
+        height: 100%;
+
+        
+    }
+    .cellSlidesd{
+        height: 89%;
+        margin-left: 2px;
+        margin-top: 0px;
+        width: 90%;
+        border-radius: 30px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 1021px){
+    .celularSlide{
+        margin-left: 40px;
+        height: 500px;
+        max-width: 250px;
+        background-size: 100%;
+    }
+    .silideCelular{
+        justify-content: space-between;
+    }
+    .capaCelular{
+   
+        height: 100%;
+
+        
+    }
+    .cellSlidesd{
+        height: 86%;
+        margin-left: 2px;
+        margin-top: 0px;
+        width: 90%;
+        border-radius: 30px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 995px){
+    .celularSlide{
+        margin-left: 40px;
+        height: 500px;
+        max-width: 250px;
+        background-size: 100%;
+    }
+    .silideCelular{
+        justify-content: space-between;
+    }
+    .capaCelular{
+   
+        height: 100%;
+
+        
+    }
+    .cellSlidesd{
+        height: 83%;
+        margin-left: 2px;
+        margin-top: 0px;
+        width: 90%;
+        border-radius: 30px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 973px){
+    .celularSlide{
+        margin-left: 40px;
+        height: 500px;
+        max-width: 350px;
+        background-size: 100%;
+    }
+    .silideCelular{
+        justify-content: space-between;
+    }
+    .capaCelular{
+   
+        height: 100%;
+
+        
+    }
+    .cellSlidesd{
+        height: 92%;
+        margin-left: 2px;
+        margin-top: 0px;
+        width: 90%;
+        border-radius: 30px;
+        margin-bottom: 5px;
+    }
+    .conteuDTex{
+        width: 500px;
+    }
+}
+
+@media (max-width: 958px){
+    .celularSlide{
+        margin-left: 40px;
+        height: 500px;
+        max-width: 350px;
+        background-size: 100%;
+    }
+    .silideCelular{
+        justify-content: space-between;
+    }
+    .capaCelular{
+   
+        height: 100%;
+
+        
+    }
+    .cellSlidesd{
+        height: 90%;
+        margin-left: 2px;
+        margin-top: 0px;
+        width: 90%;
+        border-radius: 30px;
+        margin-bottom: 5px;
+    }
+    .conteuDTex{
+        width: 500px;
+    }
+}
+
+@media (max-width: 936px){
+    .celularSlide{
+        margin-left: 40px;
+        height: 500px;
+        max-width: 350px;
+        background-size: 100%;
+    }
+    .silideCelular{
+        min-height: 600px;
+        justify-content: space-between;
+    }
+    .capaCelular{
+   
+        height: 100%;
+
+        
+    }
+    .cellSlidesd{
+        height: 87%;
+        margin-left: 2px;
+        margin-top: 0px;
+        width: 90%;
+        border-radius: 30px;
+        margin-bottom: 5px;
+    }
+    .conteuDTex{
+        width: 500px;
+    }
+}
+
+@media (max-width: 912px){
+    .cellSlidesd{
+        height: 84%;
+        margin-left: 2px;
+        margin-top: 0px;
+        width: 90%;
+        border-radius: 30px;
+        margin-bottom: 5px;
+    }
+    .conteuDTex{
+        width: 500px;
+    }
+
+    .textdesfa span{
+        font-size: 11px!important;
+    }
+}
+
+@media (max-width: 892px){   
+    .cellSlidesd{
+        height: 82%;
+        margin-left: 2px;
+        margin-top: 0px;
+        width: 90%;
+        border-radius: 30px;
+        margin-bottom: 5px;
+    }
+    .conteuDTex{
+        width: 500px;
+    }
+
+    .textdesfa span{
+        font-size: 11px!important;
+    }
+}
+
+@media (max-width: 870px){
+    .celularSlide{
+        margin-left: 40px;
+        height: 600px;
+        max-width: 350px;
+        background-size: 100%;
+    }
+    .cellSlidesd{
+        height: 66%;
+        margin-left: 2px;
+        margin-top: 0px;
+        width: 90%;
+        border-radius: 30px;
+        margin-bottom: 5px;
+    }
+    .conteuDTex{
+        width: 500px;
+    }
+
+    .textdesfa span{
+        font-size: 11px!important;
+    }
+
+    .textdesfa span{
+        font-size: 10px!important;
+    }
+}
+
+@media (max-width: 854px){
+
+    .cellSlidesd{
+        height: 64%;
+        margin-left: 2px;
+        margin-top: 0px;
+        width: 90%;
+        border-radius: 30px;
+        margin-bottom: 5px;
+    }
+    .conteuDTex{
+        width: 500px;
+    }
+
+    .textdesfa span{
+        font-size: 11px!important;
+    }
+
+    .textdesfa span{
+        font-size: 10px!important;
+    }
+}
+
+@media (max-width: 838px){
+
+    .cellSlidesd{
+        height: 63%;
+        margin-left: 2px;
+        margin-top: 0px;
+        width: 90%;
+        border-radius: 30px;
+        margin-bottom: 5px;
+    }
+    .conteuDTex{
+        width: 500px;
+    }
+
+    .textdesfa span{
+        font-size: 11px!important;
+    }
+
+    .textdesfa span{
+        font-size: 10px!important;
+    }
+}
+
+@media (max-width: 830px){
+    .abrigaMj{
+        flex-direction: column!important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .conteuDTex{
+        width: 100%;
+        min-height: 400px;
+    }
+
+    .conteuDTex h2, .soluCld h3, .soluCld p{
+        text-align: center;
+        border: 0px solid black;
+    }
+    .textdesfa span{
+        font-size: 14px!important;
+    }
+
+    .celularSlide{
+        max-width: 50%!important;
+        min-width: 50%!important;
+        margin-top: 100px;
+        border: 0px solid black;
+        margin-left: 0px;
+    }
+
+    .celularSlide{
+        margin-left: 40px;
+        height: 800px;
+        max-width: 350px;
+        background-size: 100%;
+    }
+
+    .cellSlidesd{
+        height: 88%;
+        margin-left: 2px;
+        margin-top: 0px;
+        width: 90%;
+        border-radius: 40px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 816px){
+
+    .cellSlidesd{
+        height: 87%;
+    }
+}
+
+@media (max-width: 798px){
+
+    .cellSlidesd{
+        height: 84%;
+    }
+}
+
+@media (max-width: 798px){
+
+    .cellSlidesd{
+        height: 83%;
+    }
+}
+
+@media (max-width: 765px){
+
+    .cellSlidesd{
+        height: 80%;
+    }
+}
+
+@media (max-width: 742px){
+
+    .cellSlidesd{
+        height: 78%;
+    }
+}
+
+@media (max-width: 726px){
+
+    .cellSlidesd{
+        height: 76%;
+    }
+}
+
+@media (max-width: 706px){
+
+    .cellSlidesd{
+        height: 74%;
+    }
+}
+
+@media (max-width: 690px){
+
+    .cellSlidesd{
+        height: 72%;
+    }
+}
+
+@media (max-width: 669px){
+
+    .cellSlidesd{
+        height: 69%;
+    }
+}
+
+@media (max-width: 650px){
+
+    .cellSlidesd{
+        height: 67%;
+    }
+}
+
+@media (max-width: 631px){
+
+    .cellSlidesd{
+        height: 65%;
+    }
+}
+
+@media (max-width: 615px){
+
+    .cellSlidesd{
+        height: 63%;
+    }
+}
+
+@media (max-width: 597px){
+
+    .cellSlidesd{
+        height: 61%;
+    }
+}
+
+@media (max-width: 585px){
+
+    .cellSlidesd{
+        height: 77%;
+    }
+
+    .celularSlide{
+        max-width: 65%!important;
+        min-width: 65%!important;
+        margin-top: 100px;
+        border: 0px solid black;
+        margin-left: 0px;
+    }
+
+
+    .textdesfa span{
+        font-size: 12px!important;
+    }
+}
+
+@media (max-width: 572px){
+
+    .cellSlidesd{
+        height: 75%;
+    }
+}
+
+@media (max-width: 560px){
+
+    .cellSlidesd{
+        height: 73%;
+    }
+}
+
+@media (max-width: 541px){
+
+    .cellSlidesd{
+        height: 71%;
+    }
+}
+
+@media (max-width: 534px){
+
+    .cellSlidesd{
+        height: 69%;
+    }
+}
+
+@media (max-width: 515px){
+
+    .cellSlidesd{
+        height: 72%;
+    }
+
+    .celularSlide{
+        max-width: 70%!important;
+        min-width: 70%!important;
+        margin-top: 100px;
+        border: 0px solid black;
+        margin-left: 0px;
+    }
+
+
+    .textdesfa span{
+        font-size: 11px!important;
+    }
+
+    .conteuDTex ul li .textdesfa span{
+        width: calc(100% - 10px);
+    }
+}
+
+@media (max-width: 507px){
+
+    .cellSlidesd{
+        height: 70%;
+    }
+}
+
+@media (max-width: 492px){
+
+    .cellSlidesd{
+        height: 68%;
+    }
+}
+
+@media (max-width: 479px){
+
+    .cellSlidesd{
+        height: 66%;
+    }
+}
+
+@media (max-width: 471px){
+
+    .cellSlidesd{
+        height: 65%;
+    }
+}
+
+
+@media (max-width: 462px){
+
+    .cellSlidesd{
+        height: 63%;
+    }
+}
+
+@media (max-width: 450px){
+
+    .cellSlidesd{
+        height: 61%;
+        border-radius: 33px;
+    }
+}
+
+@media (max-width: 438px){
+
+    .cellSlidesd{
+        height: 59%;
+        border-radius: 33px;
+    }
+}
+
+@media (max-width: 427px){
+
+    .cellSlidesd{
+        height: 82%;
+        border-radius: 40px;
+    }
+
+    .textdesfa span{
+        font-size: 10px!important;
+    }
+
+    .celularSlide{
+        max-width: 100%!important;
+        min-width: 100%!important;
+        border: 0px solid black;
+        margin-left: 0px;
+        margin-top: 150px;
+        
+    }
+}
+
+@media (max-width: 418px){
+
+    .cellSlidesd{
+        height: 80%;
+        border-radius: 40px;
+    }
+}
+
+@media (max-width: 410px){
+
+    .cellSlidesd{
+        height: 78%;
+        border-radius: 50px;
+    }
+}
+
+@media (max-width: 400px){
+
+    .cellSlidesd{
+        height: 76%;
+        border-radius: 50px;
+    }
+}
+
+@media (max-width: 397px){
+
+    .cellSlidesd{
+        height: 75%;
+        border-radius: 40px;
+    }
+}
+
+@media (max-width: 397px){
+
+    .cellSlidesd{
+        height: 84%;
+        border-radius: 40px;
+    }
+}
+
+@media (max-width: 389px){
+
+    .cellSlidesd{
+        height: 84%;
+        border-radius: 50px;
+    }
+}
+
+@media (max-width: 385px){
+
+    .cellSlidesd{
+        height: 81%;
+        border-radius: 45px;
+    }
+}
+
+@media (max-width: 385px){
+
+    .cellSlidesd{
+        height: 81%;
+        border-radius: 45px;
+    }
+}
+
+@media (max-width: 373px){
+
+    .cellSlidesd{
+        height: 78%;
+        border-radius: 40px;
+    }
+}
+
+@media (max-width: 364px){
+
+    .cellSlidesd{
+        height: 76%;
+        border-radius: 40px;
+    }
+}
+
+@media (max-width: 354px){
+
+    .cellSlidesd{
+        height: 74%;
+        border-radius: 40px;
+    }
+}
+
+@media (max-width: 346px){
+    .cellSlidesd{
+        height: 72%;
+        border-radius: 50px;
+    }
+    /* .celularSlide{
+        height: 300px;
+        width: 100px;
+        overflow: hidden;
+    } */
+}
+
+@media (max-width: 336px){
+    .cellSlidesd{
+        height: 70%;
+        border-radius: 45px;
+    }
+}
+
+@media (max-width: 328px){
+    .cellSlidesd{
+        height: 68%;
+        border-radius: 45px;
+    }
+}
+
+@media (max-width: 319px){
+    .cellSlidesd{
+        height: 66%;
+        border-radius: 40px;
+    }
+}
+
+@media (max-width: 312px){
+    .cellSlidesd{
+        height: 64%;
+        border-radius: 40px;
+    }
+}
+
+@media (max-width: 303px){
+    .cellSlidesd{
+        height: 62%;
+        border-radius: 40px;
+    }
+}
+
+@media (max-width: 395px){
+    .cellSlidesd{
+        height: 60%;
+        border-radius: 37px;
+    }
+}
+
+@media (max-width: 287px){
+    .cellSlidesd{
+        height: 58%;
+        border-radius: 37px;
+    }
+}
+
+@media (max-width: 278px){
+    .cellSlidesd{
+        height: 57%;
+        border-radius: 37px;
+    }
+}
+
+@media (max-width: 274px){
+    .cellSlidesd{
+        height: 55%;
+        border-radius: 30px;
+    }
+}
+
+@media (max-width: 269px){
+    .cellSlidesd{
+        height: 86%;
+        border-radius: 30px;
+        
+    }
+
+    .textdesfa span{
+        display: none;
+    }
+
+    .celularSlide{
+        border: 0px solid black;
+        height: 500px;
+    }
+}
+
+@media (max-width: 262px){
+    .cellSlidesd{
+        height: 84%;
+        border-radius: 30px;
+        
+    }
+}
+
+@media (max-width: 254px){
+    .cellSlidesd{
+        height: 80%;
+        border-radius: 30px;
+        
+    }
+}
+
+
+
 @media (max-width: 1229px){
     .textoPublicidadeBannner{
         max-width: 400px;
@@ -15,10 +1068,29 @@
     }
 }
 
+@media (max-width: 1197px){
+    /* .conteuDTex ul li .textdesfa{
+        width: calc(100% - 80px);
+        font-size: 13px;
+    }  */
+
+    .conteuDTex ul li .textdesfa span{
+        font-size: 11x;
+    }
+}
+
+
 @media (max-width: 1111px){
     .info{
         padding: 0px 100px;
         width: calc(100% - 200px);
+    }
+    .iconsServicos{
+        padding: 0px 100px;
+    }
+    .silideCelular{
+        padding: 40px 100px;
+        width: calc(100% - 200px);  
     }
     nav{
         padding: 5px 100px;
@@ -55,6 +1127,11 @@
         border: 0px solid black;
         transition: all .7s ease;
     }
+
+    .quemDiv{
+        padding: 0px 100px;
+    }
+    
 }
 
 @media (max-width: 830px){
@@ -66,6 +1143,11 @@
         padding: 5px 40px;
         width: calc(100% - 80px);
     }
+
+    .silideCelular {
+        padding: 40px 40px;
+        width: calc(100% - 80px);
+      }
 
     .servicos{
         margin-top: 120px;
@@ -97,6 +1179,15 @@
         border: 0px solid black;
         transition: all .7s ease;
     }
+
+    .iconsServicos{
+        padding: 0px 40px;
+    }
+
+    .quemDiv{
+        padding: 0px 40px;
+    }
+    
 }
 
 @media (max-width: 704px){
@@ -142,9 +1233,74 @@
         left: 0px;
         height: 100vh;
         background-color: white;
+        display: none;
+    }
+    .logoMenu{
+        border: 0px solid white;
+        margin-left: 20px;
+    }
+    .info{
+        display: none;
+    }
+    .nav{
+        top: 0px!important;
+        height: 60px!important;
     }
 }
-/* @media (max-width: 616px){
+
+@media (max-width: 541px){
+    .imagensSlide{
+        height: calc(70vh);
+        padding: 0px 20px;
+        border: 0px solid white!important;
+    }
+}
+@media (max-width: 396px){
+    .info{
+        padding: 0px 20px;
+        width: calc(100% - 40px);
+    }
+    .iconsServicos{
+        padding: 0px 20px;
+    }
+    nav{
+        padding: 5px 20px;
+        width: calc(100% - 40px);
+    }
+    .abrigaDefire{
+        padding: 30px 20px;
+        width: calc(100% - 40px);
+    }
+    .silideCelular {
+        padding: 40px 20px;
+        width: calc(100% - 40px);
+      }
+    .servicos{
+        margin-top: 120px;
+        padding: 0px 20px;
+    }
+
+    .imagensSlide{
+        height: calc(60vh);
+        padding: 0px 20px;
+        border: 0px solid white!important;
+    }
+    
+    .contatos{
+        padding: 100px 20px;
+    }
+
+    .apresetacao{
+        padding: 40px 20px;
+    }
+
+    .blinhas{
+        right: 20px;
+    }
+    .quemDiv{
+        padding: 0px 20px;
+    }
+    
     .textoPublicidadeBannner{
         max-width: calc(100% - 80px);
         border: 0px solid white;
@@ -161,4 +1317,424 @@
     .lastTextos{
         display: none;
     }
+
+    .blinhas{
+        position: absolute;
+        border: 0px solid #fff;
+        height: 100px;
+        width: 20px;
+        bottom: 30px!important;
+        right: 50%;
+        top: 90%;
+        
+    }
+
+    .blinhas ul{
+        flex-direction: row;
+        min-width: 50px;
+    }
+
+    .blinhas ul li{
+        width: 7px;
+        height: 7px;
+    }
+
+    .btnContatos a{
+        width: 80px;
+        height: 22px;
+        font-size: 10px!important;
+    }
+
+
+}
+@media (max-width: 396px){
+    .textoPublicidadeBannner p{
+        font-size: 1.2rem;
+        line-height: 25px;
+    }
+    .logoMenu{
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 278px){
+    .btnContatos{
+        display: none;
+    }
+    .imagensSlide{
+        height: calc(50vh);
+    }
+    .textoPublicidadeBannner p{
+        font-size: 1rem;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 1222px){
+
+    .def ul{
+        border: 0px solid red;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .def{
+        width: 100%;
+    }
+    .defire ul li{
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 1157px){
+    .defire ul li{
+        padding: 10px 5px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 1157px){
+    .abrigaDefire{
+        padding: 70px 100px;
+        background-color: rgba(0, 0, 0, 0.4);
+        width: calc(100% - 200px);
+        
+    }
+
+    .defire ul li{
+        padding: 10px 15px;
+        height: 200px;
+    }
+}
+
+
+@media (max-width: 1157px){
+
+    .defire ul li{
+        padding: 10px 5px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 897px){
+    .defire ul{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .defire ul li{
+        margin-bottom: 15px;
+        width: 70%;
+    }
+
+    .defire ul li p{
+        width: 60%;
+        hyphens: none;
+    }
+}
+
+@media (max-width: 897px){
+    .abrigaDefire{
+        padding: 30px 40px;
+        width: calc(100% - 80px);
+    }
+
+    .defire ul li{
+        margin-bottom: 15px;
+        width: 70%;
+        height: 140px;
+    }
+
+    .defire ul li p{
+        width: 60%;
+        hyphens: none;
+    }
+
+    .bolinhaSite{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .bolinhaSite p{
+        border: 0px solid white;
+        width: 90%;
+    }
+}
+
+@media (max-width: 897px){
+    .defire ul li{
+        margin-bottom: 15px;
+        width: 100%;
+        height: 140px;
+    }
+}
+
+@media (max-width: 388px){
+    .defire ul li{
+        margin-bottom: 15px;
+        width: 100%;
+        height: 200px;
+    }
+    .bolinhaSite p{
+        border: 0px solid white;
+        width: 100%;
+    }
+}
+
+@media (max-width: 311px){
+    .defire ul li{
+        margin-bottom: 15px;
+        width: 100%;
+        height: 250px;
+    }
+    .bolinhaSite p{
+        border: 0px solid white;
+        width: 100%;
+        font-size: 10px!important;
+    }
+}
+/* 
+
+.textoQuemSomos{
+    border: 0px solid black;
+    width: calc(100% - 580px);
+    margin-left: 30px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textoQuemSomos h2{
+    font-size: 1.5rem;
+    color: #222;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.textoQuemSomos p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 35px;
+    color: #777;
+    text-transform: capitalize;
+}
+
+.imagemQuemSomos{
+    width: 600px;
+    height: 400px;
+    border: 0px solid black;
+    background-image: url(../imgs/any/retratov2.png);
+    background-position: start;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2px;
 } */
+
+@media (max-width: 1429px){
+    
+    .textoQuemSomos p{
+        font-size: 12px;
+        line-height: 27px;
+    }
+}
+
+@media (max-width: 1350px){
+    
+    .textoQuemSomos p{
+        font-size: 13px;
+        line-height: 30px;
+    }
+
+    .imagemQuemSomos{
+        width: 500px;
+    }
+    .textoQuemSomos{
+        width: calc(100% - 480px);
+    }
+}
+
+@media (max-width: 1214px){
+    
+    .textoQuemSomos p{
+        font-size: 13px;
+        line-height: 30px;
+    }
+
+    .imagemQuemSomos{
+        width: 350px;
+        height: 280px;
+    }
+    .textoQuemSomos{
+        width: calc(100% - 280px);
+    }
+}
+
+@media (max-width: 928px){
+    
+    .textoQuemSomos p{
+        font-size: 12px;
+        line-height: 27px;
+    }
+
+    .imagemQuemSomos{
+        width: 300px;
+        height: 280px;
+    }
+    .textoQuemSomos{
+        width: calc(100% - 280px);
+    }
+}
+
+@media (max-width: 840px){
+    
+    .textoQuemSomos p{
+        font-size: 11px;
+        line-height: 24px;
+    }
+
+    .imagemQuemSomos{
+        width: 300px;
+        height: 280px;
+    }
+    .textoQuemSomos{
+        width: calc(100% - 280px);
+    }
+}
+
+@media (max-width: 698px){
+    .imagemQuemSomos{
+        width: 100%;
+        height: 400px;
+    }
+    .textoQuemSomos{
+        width: 100%;
+        border: 0px solid black;
+        margin: 0px;
+        padding: 0px;
+        min-height: 300px;
+    }
+    .textoQuemSomos p{
+        font-size: 14px;
+        line-height: 32px;
+        text-align: center;
+    }
+    .quemDiv h2{
+        display: block;
+        color: #222;
+        font-size: 1.5rem;
+    }
+    .textoQuemSomos h2{
+        display: none;
+    }
+    .quemDiv{
+        flex-direction: column;
+    }
+    
+}
+
+
+@media (max-width: 517px){
+
+
+    .textoQuemSomos p{
+        font-size: 13px;
+        line-height: 30px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 452px){
+
+
+    .textoQuemSomos p{
+        text-align: justify;
+    }
+    .textoQuemSomos{
+        margin-top: 20px;
+    }
+
+    .imagemQuemSomos{
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media (max-width: 350px){
+
+
+    .textoQuemSomos p{
+        text-align: justify;
+    }
+    .textoQuemSomos{
+        margin-top: 20px;
+        height: 400px;
+    }
+
+    .imagemQuemSomos{
+        width: 100%;
+        height: 200px;
+    }
+    h2{
+        font-size: 1.2rem!important;
+    }
+}
+
+@media (max-width: 303px){
+
+
+    .textoQuemSomos p{
+        text-align: justify;
+        font-size: 12px;
+        line-height: 27px;
+    }
+    .textoQuemSomos{
+        margin-top: 30px;
+        height: 400px;
+    }
+
+    .imagemQuemSomos{
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (max-width: 269px){
+
+
+    .textoQuemSomos p{
+        text-align: justify;
+        font-size: 12px;
+        line-height: 27px;
+    }
+    .textoQuemSomos{
+        margin-top: 70px;
+        height: 500px;
+    }
+
+    .imagemQuemSomos{
+        width: 100%;
+        height: 150px;
+    }
+}
+
+@media (max-width: 209px){
+
+
+    .textoQuemSomos p{
+        text-align: justify;
+        font-size: 12px;
+        line-height: 27px;
+    }
+    .textoQuemSomos{
+        margin-top: 70px;
+        height: 600px;
+    }
+
+    .imagemQuemSomos{
+        width: 100%;
+        height: 200px;
+    }
+}

@@ -86,12 +86,48 @@ let nav = document.querySelector(".nav")
 let linkMuda = window.document.querySelectorAll(".linkMuda")
 let logoChange = window.document.querySelector(".logoChange")
 let btnContact = window.document.querySelector(".btnContact")
+let hum = document.querySelectorAll(".hum")
+let humburguer = document.querySelector(".humburguer")
+let hun = true
+let menuSuspenso = document.querySelector(".menuSuspenso")
+let hund = document.querySelector(".hund")
+humburguer.addEventListener("click", ()=>{
+    if(hun){
+        humburguer.style.position = "absolute"
+        menuSuspenso.style.width = "100%"
+        hun = false
+    }else{
+        humburguer.style.position = "static"
+        menuSuspenso.style.width = "0"
+        hun = true
+    }
+})
+
+hund.addEventListener("click", ()=>{
+    let co = "#000000"
+    if(hun){
+        humburguer.style.position = "absolute"
+        menuSuspenso.style.width = "100%"
+        hun = false
+    }else{
+        humburguer.style.position = "static"
+        menuSuspenso.style.width = "0"
+        hun = true
+    }
+})
 function linM(cor){
     for(let i=0; i<linkMuda.length; i++){
         linkMuda[i].style.color = cor
     }
+
+    for(let i=0; i<hum.length; i++){
+        hum[i].style.backgroundColor = cor;
+    }
 }
+let coordenadasCelular = document.getElementById("cellSlidesd").getBoundingClientRect().height;
 document.addEventListener("scroll", ()=>{
+    coordenadasCelular = document.getElementById("cellSlidesd").getBoundingClientRect().height;
+    console.log(coordenadasCelular)
     if(window.pageYOffset>=100){
         nav.style.position = "fixed"
         nav.style.background = "#fff"
@@ -168,6 +204,16 @@ let tmpK = ""
 let textdesfa = window.document.querySelectorAll(".textdesfa")
 let tituloSolucao = window.document.querySelectorAll(".tituloSolucao")
 let logoFotos = window.document.querySelectorAll(".logoFotos")
+let produtosWeb = document.querySelectorAll(".produtosWeb")
+
+console.log(coordenadasCelular)
+for(let i=0; i<produtosWeb.length; i++){
+    produtosWeb[i].addEventListener("click", ()=>{
+        pos=(i)
+        slideVhd() 
+        console.log(i)
+    })
+}
 
 function zerarConfig() {
     for(let i=0; i<textdesfa.length; i++){
@@ -188,25 +234,43 @@ function slideVhd() {
             pos++
             textdesfa[pos].style.boxShadow = "rgba(99, 99, 99, 0.2) 2px 1px 2px 1px"
             tituloSolucao[pos].style.textShadow = "1px 3px 3px rgba(0, 0, 0, 0.2)"
-            logoFotos[pos].style.border = "2px solid #ddd"
+            logoFotos[pos].style.border = "2px solid #00D084"
             logoFotos[pos].style.boxShadow = "rgba(0, 0, 0, 0.2) 0px 4px 8px -1px, rgba(0, 0, 0, 0.06) 0px 2px 8px -1px"
         }else{
             pos=1
+            // capaCelular[pos].style.height = "0px"
+            // capaCelular[pos].style.visibility = "hidden"
+            // textdesfa[pos].style.boxShadow = "rgba(99, 99, 99, 0.2) 2px 1px 2px 1px"
+            // tituloSolucao[pos].style.textShadow = "1px 3px 3px rgba(0, 0, 0, 0.2)"
+            // logoFotos[pos].style.border = "2px solid #00D084"
+            // logoFotos[pos].style.boxShadow = "rgba(0, 0, 0, 0.2) 0px 4px 8px -1px, rgba(0, 0, 0, 0.06) 0px 2px 8px -1px"
+            // capaCelular[pos].style.height = "default"
+            // capaCelular[pos].style.visibility = "visible"
+            
             cond = false
         }
     }else{
         if(pos>=0 && pos<=1){
             textdesfa[pos].style.boxShadow = "rgba(99, 99, 99, 0.2) 2px 1px 2px 1px"
             tituloSolucao[pos].style.textShadow = "1px 3px 3px rgba(0, 0, 0, 0.2)"
-            logoFotos[pos].style.border = "2px solid #ddd"
+            logoFotos[pos].style.border = "2px solid #00D084"
             logoFotos[pos].style.boxShadow = "rgba(0, 0, 0, 0.2) 0px 4px 8px -1px, rgba(0, 0, 0, 0.06) 0px 2px 8px -1px"
-            capaCelular[pos].style.height = "540px"
+            capaCelular[pos].style.height =coordenadasCelular+"px"
             capaCelular[pos].style.visibility = "visible"
             pos--
             
             
         }else{
             pos=0
+            // capaCelular[pos].style.height = "default"
+            // capaCelular[pos].style.visibility = "visible"
+            // textdesfa[pos].style.boxShadow = "rgba(99, 99, 99, 0.2) 2px 1px 2px 1px"
+            // tituloSolucao[pos].style.textShadow = "1px 3px 3px rgba(0, 0, 0, 0.2)"
+            // logoFotos[pos].style.border = "2px solid #00D084"
+            // logoFotos[pos].style.boxShadow = "rgba(0, 0, 0, 0.2) 0px 4px 8px -1px, rgba(0, 0, 0, 0.06) 0px 2px 8px -1px"
+            // capaCelular[pos].style.height = "default"
+            // capaCelular[pos].style.visibility = "visible"
+           
             cond = true
         }
     }

@@ -1413,7 +1413,20 @@ footer ul li a{
     border: 1px solid #ddd;
     height: 40px;
     padding: 10px 15px;
-    border-radius: 2px;
+    border-radius: 0px;
+}
+
+.esContPrinc{
+    min-height: 20px;
+    border: 1px solid #ccc;
+    border-top: 0px;
+    border-radius: 0px;
+    padding: 10px 50px;
+    font-size: 13px;
+}
+
+.esContPrinc{
+
 }
 
 .faqPer ul li .textoFaq{
@@ -1665,3 +1678,4 @@ footer ul li:last-child .textOther a span{
     box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 8px;
     border-radius: 100%;
 }
+

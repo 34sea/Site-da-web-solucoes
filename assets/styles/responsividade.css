@@ -1,3 +1,11 @@
+@media (max-width: 883px){
+    .faqRed{
+        min-height: 400px;
+    }
+}
+
+
+
 @media (max-width: 1344px){
     .conteuDTex ul li .textdesfa{
         width: calc(100% - 80px);
@@ -34,7 +42,9 @@
     .cellSlidesd{
         height: 530px;
         margin-left: 4px;
-        margin-top: 2px;
+        margin-top: 0px;
+        border: 0px solid red;
+        width: 90%;
     }
 }
 
@@ -885,7 +895,7 @@
     }
 }
 
-@media (max-width: 397px){
+@media (max-width: 396px){
 
     .cellSlidesd{
         height: 84%;
@@ -893,6 +903,14 @@
     }
 }
 
+
+@media (max-width: 395px){
+
+    .cellSlidesd{
+        height: 84%;
+        border-radius: 40px;
+    }
+}
 @media (max-width: 389px){
 
     .cellSlidesd{
@@ -927,6 +945,13 @@
 
 @media (max-width: 364px){
 
+    .cellSlidesd{
+        height: 76%;
+        border-radius: 40px;
+    }
+}
+
+@media (max-width: 360px){
     .cellSlidesd{
         height: 76%;
         border-radius: 40px;
@@ -988,12 +1013,6 @@
     }
 }
 
-@media (max-width: 395px){
-    .cellSlidesd{
-        height: 60%;
-        border-radius: 37px;
-    }
-}
 
 @media (max-width: 287px){
     .cellSlidesd{
@@ -1085,6 +1104,24 @@
         padding: 0px 100px;
         width: calc(100% - 200px);
     }
+    .whatssapBtn{
+        right: 100px;
+        bottom: 20px;
+    }
+    .contatoSec{
+        padding: 60px 100px;
+        margin-top: 10px;
+    }
+    footer{
+        padding: 20px 100px;
+    }
+    .faqRed{
+        padding: 0px 100px;
+    }
+    
+    .parceiros{
+        padding: 20px 100px;
+    }
     .iconsServicos{
         padding: 0px 100px;
     }
@@ -1100,6 +1137,7 @@
     .servicos{
         margin-top: 120px;
         padding: 0px 100px;
+        padding-top: 40px;
     }
 
     .imagensSlide{
@@ -1139,6 +1177,24 @@
         padding: 0px 40px;
         width: calc(100% - 80px);
     }
+    .whatssapBtn{
+        right: 40px;
+        bottom: 20px;
+    }
+    .contatoSec{
+        padding: 20px 40px;
+        margin-top: 10px;
+    }
+    footer{
+        padding: 20px 40px;
+    }
+    .faqRed{
+        padding: 0px 40px;
+    }
+    
+    .parceiros{
+        padding: 20px 40px;
+    }
     nav{
         padding: 5px 40px;
         width: calc(100% - 80px);
@@ -1152,6 +1208,7 @@
     .servicos{
         margin-top: 120px;
         padding: 0px 40px;
+        padding-top: 40px;
     }
 
     .imagensSlide{
@@ -1260,6 +1317,26 @@
         padding: 0px 20px;
         width: calc(100% - 40px);
     }
+    .whatssapBtn{
+        right: 20px;
+        bottom: 20px;
+    }
+    .contatoSec{
+        padding: 10px 20px;
+        margin-top: 10px;
+    }
+
+    footer{
+        padding: 20px 20px;
+    }
+    
+    .faqRed{
+        padding: 0px 20px;
+    }
+    
+    .parceiros{
+        padding: 20px 20px;
+    }
     .iconsServicos{
         padding: 0px 20px;
     }
@@ -1278,6 +1355,7 @@
     .servicos{
         margin-top: 120px;
         padding: 0px 20px;
+        padding-top: 20px;
     }
 
     .imagensSlide{
@@ -1736,5 +1814,236 @@
     .imagemQuemSomos{
         width: 100%;
         height: 200px;
+    }
+}
+
+@media (max-width: 734px){
+    .paragrafoServico{
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 649px){
+    .paragrafoServico{
+        max-width: 400px;
+        font-size: 12px!important;
+    }
+}
+
+@media (max-width: 474px){
+    .paragrafoServico{
+        max-width: 350px;
+        font-size: 12px!important;
+    }
+}
+
+@media (max-width: 392px){
+    .paragrafoServico{
+        max-width: calc(100% - 40px);
+        padding: 0px 20px;
+        font-size: 12px!important;
+    }
+}
+
+@media(max-width: 1241px){
+    .redesFa{
+        width: 300px;
+    }
+    .faqPer{
+        width: calc(100% - 320px);
+        border: 0px solid black;
+        min-height: 200px;
+    }
+}
+
+@media(max-width: 1173px){
+    .redesFa{
+        width: 290px;
+    }
+
+    .redesFa li{
+        width: 35px!important;
+        height: 35px!important;
+    }
+
+    .redesFa li a{
+        width: 35px!important;
+        height: 35px!important;
+    }
+
+    .redesFa li a img{
+        width: 15px!important;
+    }
+    .faqPer{
+        width: calc(100% - 320px);
+        border: 0px solid black;
+        min-height: 200px;
+    }
+    .citaPara{
+        font-size: 12px!important;
+    }
+}
+
+@media(max-width: 889px){
+    .faqPer ul li .textoFaq{
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 884px){
+    .citacaoFrase{
+        margin-top: 0px;
+    }
+}
+
+@media(max-width: 850px){
+    .redesFa{
+        width: 230px;
+    }
+    .faqPer{
+        width: calc(100% - 250px);
+        border: 0px solid black;
+        min-height: 380px;
+    }
+}
+
+@media(max-width: 684px){
+    .faqPer{
+        width: 100%;
+    }
+
+    .faqPer h2{
+        text-align: center;
+    }
+    .faqRed{
+        flex-direction: column;
+    }
+    .redesFa ul{
+        border: 0px solid black;
+        
+    }
+    .redesFa{
+        width: calc(100% - 50px);
+        
+    }
+
+    .citacaoFrase{
+        border: 0px solid black!important;
+        width: 100%;
+    }
+}
+
+@media(max-width: 684px){
+    .textoFaq{
+        font-size: 11px!important;
+    }
+}
+
+@media(max-width: 336px){
+    .textoFaq{
+        font-size: 10px!important;
+    }
+
+    .faqPer ul li{
+        min-height: 80px!important;
+        overflow: hidden!important;
+    }
+    .faqPer{
+        min-height: 510px;
+    }
+}
+
+@media (max-width: 865px){
+    .inputsNor input{
+        width: 300px!important;
+    }
+
+    .formularioContacto form .inpuEnMsg textarea{
+        width: 200px!important;
+    }
+}
+
+@media (max-width: 733px){
+    .formularioContacto form{
+        width: 100%;
+    }
+    .formularioContacto form .inpuEnMsg{
+        flex-direction: column;
+        width: 100%;
+        border: 0px solid black;
+        min-height: 300px;
+    }
+
+    .inputsNor input{
+        width: 100%!important;
+    }
+
+    .formularioContacto form .inpuEnMsg textarea{
+        max-width: 100%;
+        min-width: 100%;
+        margin-bottom: 15px;
+    }
+    .formularioContacto form .inpuEnMsg .inputsNor {
+        margin-right: 0px;
+    }
+
+    .formularioContacto form .inpuEnMsg .inputsNor input{
+        margin-bottom: 15px;
+    }
+
+    .kjdBtn{
+        margin-top: 20px!important;
+    }
+}
+
+@media (max-width: 403px){
+    .kjdBtn{
+        margin-top: 20px!important;
+    }
+
+    .kjdBtn .btnEmj input, .kjdBtn .btnEmj{
+        width: 100%;
+    }
+}
+
+@media (max-width: 855px){
+    footer ul li{
+        border: 0px solid black;
+        width: 200px;
+    }
+}
+
+@media (max-width: 810px){
+    footer ul{
+        flex-wrap: wrap;
+    }
+    footer ul li{
+        border: 0px solid black;
+        width: 49%;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 547px){
+    footer ul li:last-child .textOther a span{
+        font-size: 10px;
+    }
+
+    .textOther a{
+        font-size: 10px!important;
+    }
+}
+
+@media (max-width: 432px){
+    footer ul li{
+        border: 0px solid black;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 350px){
+    footer ul li h2{
+        font-size: 13px!important;
     }
 }

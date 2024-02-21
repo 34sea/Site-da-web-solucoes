@@ -715,7 +715,10 @@ footer ul li a{
 
 .parceiros{
     background-color: #f5f5f5;
+    padding: 0px 200px;
 }
+
+
 
 .quemSomos{
     background-color: #f5f5f5;
@@ -782,6 +785,9 @@ footer ul li a{
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
+    overflow: hidden;
+    width: 100%;
+    border: 0px solid black;
 }
 
 .parceiros ul li{
@@ -1106,7 +1112,7 @@ footer ul li a{
     width: 100%;
     overflow: hidden;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .iconsServicos ul li a{
@@ -1156,7 +1162,9 @@ footer ul li a{
 }
 
 .paragrafoServico{
-    
+    max-width: 700px;
+    word-wrap: break-word;
+    border: 0px solid black;
 }
 
 .humburguer{
@@ -1204,15 +1212,83 @@ footer ul li a{
     transition: all .4s ease;
 }
 
-.menuSuspenso ul{
+.menuSuspenso .menuSu{
     height: 100vh;
     width: 300px;
-    background-color: #fff;
+    background-color: #eee;
 }
 
 .hund{
     cursor: pointer;
+    border: 0px solid black;
+    padding: 30px 35px;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+}
 
+.menuLista{
+    border: 0px solid black;
+    padding: 10px 30px;
+
+}
+
+.menuLista li a{
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    color: #333;
+}
+
+.menuLista li{
+    padding: 5px 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #eee;
+    border-radius: 0px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 1px -1px, rgba(0, 0, 0, 0.02) 0px 1px 1px -1px;
+}
+
+.menuLista li:last-child .especificomenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .5s ease-in-out;
+}
+
+.menuLista li:last-child .especificomenu img{
+    width: 17px;
+    margin-right: 10px;
+    transform: rotate(180deg);
+    transition: all .5s ease-in-out;
+}
+.menuLista li:last-child .especificomenu:focus span{
+    color: var(--principal);
+}
+
+.subMenu{
+    height: 0px;
+    overflow: hidden;
+    transition: all .4s ease;
+    margin-top: 10px;
+}
+
+.subMenu div{
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+    width: calc(100% - 10px);
+    
+}
+.subMenu div img{
+    width: 12px;
+    margin-right: 7px;
+}
+.subMenu div span{
+    font-size: 11px;
+    font-weight: 500;
+}
+.menuLista li:last-child .especificomenu:focus .subMenu{
+    height: 200px;
+    visibility: visible;
 }
 
 .contatoSec{
@@ -1223,6 +1299,7 @@ footer ul li a{
     border-top: 1px solid #f5f5f5;
     box-shadow: rgba(0, 0, 0, 0.03) 0px 2px 2px 0px inset;
 }
+
 
 .contatoSec .vontacteS h2{
     text-align: center;
@@ -1314,6 +1391,7 @@ footer ul li a{
     justify-content: space-between;
     align-items: flex-start;
 }
+
 
 .faqPer{
     border: 0px solid black;
@@ -1454,22 +1532,7 @@ footer ul li a{
 }
 
 
-footer{
-    background-color: #2e3641;
-    min-height: 300px;
-    display: flex;
-    flex-direction: column;
-}
 
-footer ul{
-    height: 280px;
-}
-
-.barrV{
-    height: 15px;
-    background-color: #fff;
-    display: none;
-}
 
 .assinCita{
     margin-top: 10px;
@@ -1506,3 +1569,99 @@ footer ul{
     padding: 10px 20px;
 }
 
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer ul li{
+    width: 24%;
+    min-height: 100px;
+    border: 0px solid white;
+}
+
+footer ul li h2{
+    font-size: 14px;
+    color: #eee;
+    font-weight: 500;
+}
+
+footer{
+    background-color: #2e3641;
+    min-height: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 200px;
+    padding-top: 60px;
+    justify-content: center;
+}
+
+.barrV{
+    height: 15px;
+    margin-top: 50px;
+    border-top: 1px solid #777;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 11px;
+    color: #aaa;
+}
+
+.textOther{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.textOther a{
+    color: #aaa;
+    margin-top: 4px;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+footer ul li:last-child .textOther a{
+    display: flex;
+    align-items: center;
+
+}
+
+footer ul li:last-child .textOther a img{
+    width: 12px;
+    margin-right: 8px;
+}
+
+footer ul li:last-child .textOther a span{
+    color: #aaa;
+    margin-top: 4px;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.whatssapBtn{
+    position: fixed;
+    right: 200px;
+    bottom: 20px;
+    z-index: 9999;
+    
+}
+
+.whatssapBtn{
+    right: 200px;
+    bottom: 20px;
+}
+
+.whatssapBtn a{
+    border: 0px solid black;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.whatssapBtn img{
+    width: 40px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 8px;
+    border-radius: 100%;
+}

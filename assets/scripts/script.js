@@ -256,6 +256,7 @@ function slideVhd() {
             logoFotos[pos].style.border = "2px solid #00D084"
             logoFotos[pos].style.boxShadow = "rgba(0, 0, 0, 0.2) 0px 4px 8px -1px, rgba(0, 0, 0, 0.06) 0px 2px 8px -1px"
             capaCelular[pos].style.height =coordenadasCelular+"px"
+            // capaCelular[pos].style.height = "100%"
             capaCelular[pos].style.visibility = "visible"
             pos--
             
@@ -283,4 +284,21 @@ silideCelular.addEventListener("mouseover", ()=>{
 
 silideCelular.addEventListener("mouseout", ()=>{
     clearInterval(tmpK)
+})
+
+let especificomenu = document.querySelector(".especificomenu")
+let subMenu = document.querySelector(".subMenu")
+let imgOutros = document.querySelector(".imgOutros")
+let rcf = true
+especificomenu.addEventListener("click", ()=>{
+    if(rcf){
+        subMenu.style.height = "100px"
+        subMenu.style.visibility = "visible"
+        imgOutros.style.transform = "rotate(0deg)"
+        
+    }else{
+        subMenu.style.height = "0px"
+        imgOutros.style.transform = "rotate(180deg)"
+    }
+    rcf=!rcf
 })

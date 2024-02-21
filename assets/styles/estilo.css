@@ -464,7 +464,20 @@ nav{
     margin-top: 0px;
 }
 
+.def ul li:hover{
+    background-color: var(--principal);
+    transition: all .5s ease;
+}
 
+.def ul li:hover p{
+    color: #fff;
+    transition: all .5s ease;
+}
+
+.def ul li:hover h3{
+    color: #fff;
+    transition: all .5s ease;
+}
 /* 
 footer ul{
     list-style: none;
@@ -1126,6 +1139,18 @@ footer ul li a{
     
 }
 
+.iconsServicos ul li a:hover{
+    transition: all 0.5s ease;
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+.iconsServicos ul li a:hover h3{
+    color: var(--principal);
+    transition: all 0.5s ease;
+}
+
 .iconOferecer{
     margin-top: 10px;
     border: 0px solid black;
@@ -1390,13 +1415,14 @@ footer ul li a{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    border: 0px solid black;
 }
 
 
 .faqPer{
     border: 0px solid black;
     width: calc(100% - 400px);
-    height: 300px;
+    min-height: 300px;
 }
 
 
@@ -1417,12 +1443,14 @@ footer ul li a{
 }
 
 .esContPrinc{
-    min-height: 20px;
-    border: 1px solid #ccc;
+    height: 0px;
+    border: 0px solid #ccc;
     border-top: 0px;
     border-radius: 0px;
-    padding: 10px 50px;
+    padding: 0px 50px;
     font-size: 13px;
+    overflow: hidden;
+    transition: all .4s ease;
 }
 
 .esContPrinc{
@@ -1599,7 +1627,23 @@ footer ul li h2{
     color: #eee;
     font-weight: 500;
 }
+footer ul li a:hover{
+    color: white;
+    transition: all .5s ease;
+    font-size: 14px;
+}
 
+.textOther a:hover{
+    color: white;
+    transition: all .5s ease;
+    font-size: 14px;
+}
+
+footer ul li .textOther a:hover span{
+    color: white;
+    transition: all .5s ease;
+    font-size: 14px;
+}
 footer{
     background-color: #2e3641;
     min-height: 10px;

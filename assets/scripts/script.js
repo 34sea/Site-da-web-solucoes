@@ -302,3 +302,33 @@ especificomenu.addEventListener("click", ()=>{
     }
     rcf=!rcf
 })
+
+let iconExpandi = document.querySelectorAll(".iconExpandi")
+let verique = []
+let esContPrinc = document.querySelectorAll(".esContPrinc")
+function zerarFaq(){
+    for(let i=0; i<iconExpandi.length; i++){
+        esContPrinc[i].style.height = "0px"
+        esContPrinc[i].style.padding = "0px 50px"
+        esContPrinc[i].style.border = "0px solid #ccc"
+    }
+}
+let rcf2 = true
+for(let i=0; i<iconExpandi.length; i++){
+    verique[i]=true
+    iconExpandi[i].addEventListener("click", ()=>{
+        zerarFaq()
+        if(verique[i]){
+            esContPrinc[i].style.height = "150px"
+            esContPrinc[i].style.padding = "10px 50px"
+            esContPrinc[i].style.border = "1px solid #ccc"
+            
+        }else{
+            esContPrinc[i].style.height = "0px"
+            esContPrinc[i].style.padding = "0px 50px"
+            esContPrinc[i].style.border = "0px solid #ccc"
+        }
+        verique[i]=!verique[i]
+        console.log(verique)
+    })
+}

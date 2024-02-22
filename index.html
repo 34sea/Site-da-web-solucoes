@@ -8,11 +8,55 @@
     <title>Web solucoes</title>
 </head>
 <body>
-    <div class="whatssapBtn">
-        <a href="#">
-            <img src="./assets/imgs/icons/what.png" alt="cdd">
-        </a>
+    <div class="classeBase" id="classeBase">
+
     </div>
+    <div class="btnWhatssapGeral">
+        <div class="mensagemCard">
+            <div class="perfiCard">
+                <div class="fotoPessoa">
+                    <div class="bolinhaFotoPessoa">
+
+                    </div>
+                </div>
+                <div class="identificacao">
+                    <h3>
+                        Agente
+                    </h3>
+                    <span>
+                        Recursos Humanos
+                    </span>
+                </div>
+            </div>
+            <div class="btnCh">
+                <a href="https://wa.me//+258860230037?text=Olá%20vim%20pelo%20site" target="_blank">
+                    Iniciar chat
+                </a>
+            </div>
+        </div>
+        <div class="tirarMensagem">
+            x
+        </div>
+        <div class="jkdCard">
+            <div class="mensagem">
+            
+                <div id="triangle"></div>
+                <div class="caixaMsg">
+                    <span>
+                        Como podemos ajudar?
+                    </span>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="whatssapBtn">
+            <div class="whatssapBtn2">
+                <img src="./assets/imgs/icons/what.png" alt="cdd">
+            </div>
+        </div>
+    </div>
+    
     <header>
         <div class="info">
             <div class="redesInfo">
@@ -66,17 +110,17 @@
 
             <ul>
                 <li>
-                    <a href="#" class="linkMuda">
+                    <a href="#quemSomos" class="linkMuda">
                         Sobre Nós
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="linkMuda">
+                    <a href="#servicosUnico" class="linkMuda">
                         Serviços
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="linkMuda">
+                    <a href="#silideCelular" class="linkMuda">
                         Soluções
                     </a>
                 </li>
@@ -107,13 +151,13 @@
                     <a href="#">Home</a>
                 </li>
                 <li>
-                    <a href="#">Sobre nós</a>
+                    <a href="#quemSomos">Sobre nós</a>
                 </li>
                 <li>
-                    <a href="#">Serviços</a>
+                    <a href="#servicosUnico">Serviços</a>
                 </li>
                 <li>
-                    <a href="#">Soluções</a>
+                    <a href="#silideCelular">Soluções</a>
                 </li>
                 <li>
                     <a href="#">Blog</a>
@@ -187,7 +231,7 @@
                                 Soluções de software.
                             </h2>
                             <p>
-                                <b>impulsionando</b> a inovação <b>por meio</b> de soluções tecnológicas <b>avançadas</b> Martinho
+                                <b>impulsionando</b> a inovação <b>por meio</b> de soluções tecnológicas <b>avançadas</b>
                             </p>
                             <div class="lastTextos">
                                 Nós <span>transformamos</span> sua empresa em um negócio de alto desempenho usando as mais modernas <span>tecnologias.</span>
@@ -207,7 +251,7 @@
                 </ul>
             </div>
         </div>
-        <section class="silideCelular">
+        <section class="silideCelular" id="silideCelular">
             <h2>
                 Nossas soluções
             </h2>
@@ -370,7 +414,7 @@
             </div>
         </section>
 
-        <section class="servicos">
+        <section class="servicos" id="servicosUnico">
             <h2>
                 O que oferecemos?
             </h2>
@@ -603,7 +647,7 @@
                 <img src="./assets/imgs/persons/Nhica-1024x1024.png" alt="imagem">
             </div>
         </section>
-        <section class="quemSomos">
+        <section class="quemSomos" id="quemSomos">
             <div class="quemDiv">
                 <h2>
                     Quem Somos
@@ -799,14 +843,14 @@
                     
                 </div>
                 <div class="formularioContacto">
-                    <form action="" method="get">
+                    <form action="https://formsubmit.co/info@websolucoesgrafica.co.mz" method="POST">
                         <div class="inpuEnMsg">
                             <div class="inputsNor">
-                                <input type="text" name="" id="" placeholder="Nome">
-                                <input type="text" name="" id="" placeholder="Telefone">
-                                <input type="email" name="" id="" placeholder="Email">
+                                <input type="text" name="Nome" id="" placeholder="Nome" required>
+                                <input type="text" name="Celular" id="" placeholder="Telefone" required>
+                                <input type="Email" name="" id="" placeholder="Email" required>
                             </div>
-                            <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                            <textarea name="Mensagem" id="" cols="30" rows="10" placeholder="Mensagem" required></textarea>
                         </div>
                         <div class="kjdBtn">
                             <div class="btnEmj">
@@ -814,7 +858,9 @@
                             </div>
                         </div>
                         
-                        
+                        <input type="hidden" name="_subject" value="@websolucoesgrafica Email vindo do site">
+                        <input type="text" name="_honey" style="display:none">
+                        <input type="hidden" name="_captcha" value="true">
                     </form>
                 </div>
         </section>

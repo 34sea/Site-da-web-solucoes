@@ -1104,7 +1104,7 @@
         padding: 0px 100px;
         width: calc(100% - 200px);
     }
-    .whatssapBtn{
+    .btnWhatssapGeral{
         right: 100px;
         bottom: 20px;
     }
@@ -1177,7 +1177,7 @@
         padding: 0px 40px;
         width: calc(100% - 80px);
     }
-    .whatssapBtn{
+    .btnWhatssapGeral{
         right: 40px;
         bottom: 20px;
     }
@@ -1317,7 +1317,7 @@
         padding: 0px 20px;
         width: calc(100% - 40px);
     }
-    .whatssapBtn{
+    .btnWhatssapGeral{
         right: 20px;
         bottom: 20px;
     }
@@ -2045,5 +2045,26 @@
 @media (max-width: 350px){
     footer ul li h2{
         font-size: 13px!important;
+    }
+}
+
+@media (max-width: 414px){
+    .mensagemCard{
+        width: 250px;
+    }
+
+    .btnCh a{
+        width: 220px;
+    }
+}
+
+@media (max-width: 414px){
+    .mensagemCard{
+        width: 200px;
+    }
+
+    .btnCh a{
+        width: 120px;
+        font-size: 11px;
     }
 }

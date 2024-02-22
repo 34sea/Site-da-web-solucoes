@@ -125,8 +125,10 @@ function linM(cor){
     }
 }
 let coordenadasCelular = document.getElementById("cellSlidesd").getBoundingClientRect().height;
+let classeBase = document.getElementById("classeBase").getBoundingClientRect().height;
 document.addEventListener("scroll", ()=>{
     coordenadasCelular = document.getElementById("cellSlidesd").getBoundingClientRect().height;
+    classeBase = document.getElementById("classeBase").getBoundingClientRect().height;
     console.log(coordenadasCelular)
     if(window.pageYOffset>=100){
         nav.style.position = "fixed"
@@ -332,3 +334,25 @@ for(let i=0; i<iconExpandi.length; i++){
         console.log(verique)
     })
 }
+
+let whatssapBtn = document.querySelector(".whatssapBtn")
+let mensagemCard = document.querySelector(".mensagemCard")
+let tirarMensagem = document.querySelector(".tirarMensagem")
+let jkdCard = document.querySelector(".jkdCard")
+let msgWhats = true
+whatssapBtn.addEventListener("click", ()=>{
+    if(msgWhats){
+        mensagemCard.style.height = classeBase+"px"
+    }else{
+        mensagemCard.style.height = "0px"
+    }
+    msgWhats = !msgWhats
+})
+
+
+tirarMensagem.addEventListener("click", ()=>{
+    jkdCard.style.height = "20px"
+    jkdCard.style.overflow = "hidden"
+    
+    tirarMensagem.style.display = "none"
+})

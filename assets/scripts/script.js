@@ -351,7 +351,7 @@ whatssapBtn.addEventListener("click", ()=>{
 
 
 tirarMensagem.addEventListener("click", ()=>{
-    jkdCard.style.height = "20px"
+    jkdCard.style.height = "0px"
     jkdCard.style.overflow = "hidden"
     
     tirarMensagem.style.display = "none"

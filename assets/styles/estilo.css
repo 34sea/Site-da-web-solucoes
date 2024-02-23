@@ -731,6 +731,18 @@ footer ul li a{
     padding: 0px 200px;
 }
 
+.parceiros ul::-webkit-scrollbar{
+    background-color: #efefef;
+    
+    height: 4px;
+    border-radius: 4px;
+}
+
+.parceiros ul::-webkit-scrollbar-thumb{
+    border-radius: 4px;
+    background-color: #ddd;
+}
+
 
 
 .quemSomos{
@@ -798,9 +810,11 @@ footer ul li a{
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
-    overflow: hidden;
+    overflow: scroll;
+    overflow-y: hidden;
     width: 100%;
     border: 0px solid black;
+    
 }
 
 .parceiros ul li{
@@ -1123,11 +1137,21 @@ footer ul li a{
     display: flex;
     border: 0px solid black;
     width: 100%;
-    overflow: hidden;
+    overflow: auto;
     align-items: flex-start;
     justify-content: center;
 }
+.iconsServicos ul::-webkit-scrollbar{
+    background-color: #eee;
+    
+    height: 6px;
+    border-radius: 4px;
+}
 
+.iconsServicos ul::-webkit-scrollbar-thumb{
+    border-radius: 4px;
+    background-color: #ccc;
+}
 .iconsServicos ul li a{
     min-width: 250px;
     height: 190px;
@@ -1782,13 +1806,24 @@ footer ul li:last-child .textOther a span{
     top: -2px;
 }
 
+
+.tirarMensagem2{
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+}
+
 .mensagemCard{
     background-color: #fff;
     height: 0px;
     width: 350px;
-    position: relative;
+    position: absolute;
     border-radius: 10px;
-    bottom: -80px;
+    bottom: 50px;
+    right: 0px;
     z-index: 999999;
     overflow: hidden;
     transition: all .5s ease;

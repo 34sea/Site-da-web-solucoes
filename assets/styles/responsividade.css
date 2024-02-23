@@ -2068,3 +2068,9 @@
         font-size: 11px;
     }
 }
+
+@media (max-width: 437px){
+    .iconsServicos ul{
+        justify-content: flex-start;
+    }
+}

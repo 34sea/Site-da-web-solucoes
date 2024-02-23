@@ -92,16 +92,28 @@ let hun = true
 let menuSuspenso = document.querySelector(".menuSuspenso")
 let hund = document.querySelector(".hund")
 humburguer.addEventListener("click", ()=>{
+    fHum()
+})
+
+menuSuspenso.addEventListener("click", ()=>{
+    fHum()
+}) 
+
+function fHum() {
     if(hun){
         humburguer.style.position = "absolute"
         menuSuspenso.style.width = "100%"
-        hun = false
+        // hun = false
     }else{
         humburguer.style.position = "static"
         menuSuspenso.style.width = "0"
-        hun = true
+        // hun = true
     }
-})
+
+    hun=!hun
+}
+
+
 
 hund.addEventListener("click", ()=>{
     let co = "#000000"

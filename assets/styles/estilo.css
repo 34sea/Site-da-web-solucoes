@@ -35,7 +35,7 @@ ul{
 .info{
     display: flex;
     align-items: center;
-    height: 25px;
+    height: 35px;
     padding: 0px 200px;
     justify-content: space-between;
     border: 0px solid black;
@@ -43,7 +43,7 @@ ul{
 }
 
 .info img{
-    width: 12px;
+    width: 15px;
 }
 
 .redesInfo{
@@ -70,7 +70,7 @@ ul{
 }
 
 .contatosInfos ul li span{
-    font-size: 11px;
+    font-size: 13px;
     color: #adadad;
     font-weight: normal;
 }
@@ -123,7 +123,7 @@ nav{
 
 .nav li a{
     color: #fff;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 500;
     opacity: 100%;
     
@@ -147,7 +147,7 @@ nav{
 
 .btnContatos a{
     width: 190px;
-    height: 22px;
+    height: 28px;
     border: 1px solid #fff;
     color: #fff;
     display: flex;
@@ -155,12 +155,15 @@ nav{
     align-items: center;
     border-radius: 30px;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 15px;
     opacity: 100%;
 }
 
 .slide{
     position: relative;
+    border: 0px solid black;
+    max-height: 100vh;
+    overflow: hidden;
 }
 
 .blinhas{
@@ -351,7 +354,7 @@ nav{
 }
 
 .servicos h2{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
     color: #222;
     text-align: center;
@@ -360,8 +363,8 @@ nav{
 
 .servicos p{
     text-align: center;
-    margin-top: 5px;
-    font-size: 13px;
+    margin-top: 10px;
+    font-size: 1rem;
     line-height: 25px;
     color: #777777;
     width: 800px;
@@ -391,16 +394,18 @@ nav{
 .bolinhaSite h2, .bolinhaSite p{
     color: #fff;
     text-align: center;
-    opacity: 90%;
+    opacity: 100%;
 }
 
 .bolinhaSite p{
-    width: 700px;
-    font-size: 13px;
+    width: 800px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .bolinhaSite h2{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .bolinhaSite img{
@@ -408,14 +413,14 @@ nav{
 }
 
 .defire ul{
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .defire ul li{
-    width: 218px;
+    width: 300px;
     margin-left: 40px;
     background-color: #fff;
-    height: 200px;
+    height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -435,19 +440,19 @@ nav{
 }
 
 .defire ul li h3{
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: #222;
     text-align: center;
 }
 
 .defire ul li p{
     color: #777;
-    font-size: 13px;
+    font-size: 14px;
     margin-top: 10px;
     text-align: center;
     border: 0px solid black;
     height: 90px;
-    width: 190px;
+    width: 91%;
     word-wrap: break-word;
     hyphens: auto;
 }
@@ -465,7 +470,7 @@ nav{
 }
 
 .def ul li:hover{
-    background-color: var(--principal);
+    background-color: #2e3641;
     transition: all .5s ease;
 }
 
@@ -716,7 +721,7 @@ footer ul li a{
 
 .clientesServicos h2{
     color: #222;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .clientesServicos{
@@ -769,7 +774,7 @@ footer ul li a{
 
 .textoQuemSomos{
     border: 0px solid black;
-    width: calc(100% - 580px);
+    width: calc(100% - 780px);
     margin-left: 30px;
     height: 350px;
     display: flex;
@@ -779,7 +784,7 @@ footer ul li a{
 }
 
 .textoQuemSomos h2{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #222;
     text-align: center;
     margin-bottom: 15px;
@@ -788,15 +793,15 @@ footer ul li a{
 
 .textoQuemSomos p{
     text-align: justify;
-    font-size: 14px;
+    font-size: 1rem;
     line-height: 35px;
     color: #777;
     text-transform: capitalize;
 }
 
 .imagemQuemSomos{
-    width: 600px;
-    height: 400px;
+    width: 800px;
+    height: 500px;
     border: 0px solid black;
     background-image: url(../imgs/any/retratov2.png);
     background-position: start;
@@ -810,7 +815,7 @@ footer ul li a{
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
-    overflow: scroll;
+    overflow: auto;
     overflow-y: hidden;
     width: 100%;
     border: 0px solid black;
@@ -818,14 +823,14 @@ footer ul li a{
 }
 
 .parceiros ul li{
-    margin-right: 40px;
+    margin-right: 65px;
 }
 
 .parceiros ul li:last-child{
     margin: 0px;
 }
 .parceiros ul li img{
-    width: 70px;
+    width: 80px;
 }
 
 .contatos{
@@ -988,7 +993,7 @@ footer ul li a{
 
 .conteuDTex{
     height: 400px;
-    width: 600px;
+    width: 700px;
     border: 0px solid black;
 }
 
@@ -1010,7 +1015,7 @@ footer ul li a{
     display: block;
     margin-top: 5px;
     margin-bottom: 30px;
-    font-size: 1.7rem;
+    font-size: 2rem;
     text-align: center;
     color: #222;
 }
@@ -1083,20 +1088,20 @@ footer ul li a{
 }
 
 .conteuDTex ul li .textdesfa span{
-    font-size: 12px;
+    font-size: 14px;
     width: calc(100% - 100px);
     color: #777;
     transition: all .5s ease;
 }
 
 .soluCld{
-    font-size: 14px;
+    font-size: 1.1rem;
     color: #222;
     transition: all .5s ease;
 }
 
 .soluCld p{
-    font-size: 12px;
+    font-size: 1rem;
     color: #777;
     font-weight: 500;
     transition: all .5s ease;
@@ -1178,8 +1183,8 @@ footer ul li a{
 .iconOferecer{
     margin-top: 10px;
     border: 0px solid black;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -1192,7 +1197,7 @@ footer ul li a{
 
 .iconsServicos ul li a h3{
     color: #222;
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 5px;
 }
 
@@ -1203,7 +1208,7 @@ footer ul li a{
     margin-top: 10px;
     overflow: hidden;
     text-align: center;
-    font-size: 12px;
+    font-size: 13px;
     color: #777;
     font-weight: 400;
     word-wrap: break-word;
@@ -1353,11 +1358,11 @@ footer ul li a{
 .contatoSec .vontacteS h2{
     text-align: center;
     color: #222;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .contatoSec .vontacteS p{
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 500;
     text-align: center;
     color: #888;
@@ -1452,7 +1457,7 @@ footer ul li a{
 
 
 .faqPer h2{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #222!important;
     margin-bottom: 20px;
 }
@@ -1482,7 +1487,7 @@ footer ul li a{
 }
 
 .faqPer ul li .textoFaq{
-    font-size: 13px;
+    font-size: 1rem;
     margin-left: 20px;
     font-weight: 500;
     line-height: 20px;
@@ -1517,7 +1522,7 @@ footer ul li a{
 }
 
 .redesFa h3{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     color: #222;
     margin-bottom: 20px;
@@ -1564,7 +1569,7 @@ footer ul li a{
 }
 
 .citacaoFrase .citaPara{
-    font-size: 13px;
+    font-size: 14px;
     text-align: justify;
     line-height: 20px;
     position: relative;
@@ -1647,7 +1652,7 @@ footer ul li{
 }
 
 footer ul li h2{
-    font-size: 14px;
+    font-size: 1rem;
     color: #eee;
     font-weight: 500;
 }
@@ -1699,7 +1704,7 @@ footer{
 .textOther a{
     color: #aaa;
     margin-top: 4px;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: normal;
 }
 
@@ -1785,7 +1790,7 @@ footer ul li:last-child .textOther a span{
 
 .caixaMsg span{
     color: #222;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .mensagem{

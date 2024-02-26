@@ -1,0 +1,1964 @@
+@media (max-width: 1600px){
+    .info{
+        display: flex;
+        align-items: center;
+        height: 25px;
+        padding: 0px 200px;
+        justify-content: space-between;
+        border: 0px solid black;
+        width: calc(100% - 400px);
+    }
+    
+    .info img{
+        width: 12px;
+    }
+    
+    .redesInfo{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .redesInfo a{
+        display: flex;
+        align-items: center;
+    }
+    
+    .contatosInfos ul{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .contatosInfos ul li{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    
+    .contatosInfos ul li span{
+        font-size: 11px;
+        color: #adadad;
+        font-weight: normal;
+    }
+    
+    .imagensSlide{
+        height: calc(100vh - 25px);
+        /* height: 600px; */
+        background-image: url(../imgs/banner/MARTINHO.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center!important;
+        justify-content: flex-start!important;
+        padding: 0px 200px;
+        position: relative;
+        border: 0px solid var(--principal);
+    
+    }
+    
+    
+    
+    nav{
+        padding: 5px 200px;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        z-index: 999;
+        width: calc(100% - 400px);
+        align-items: center;
+        border: 0px solid white;
+        transition: all .2s ease;
+        
+    }
+    
+    .logoMenu{
+        display: flex;
+        align-items: center;
+        gap: 0px;
+        border: 0px solid #fff;
+    }
+    
+    .nav ul{
+        display: flex;
+        align-items: center;
+        gap: 0px;
+    }
+    
+    .nav li a{
+        color: #fff;
+        font-size: 13px;
+        font-weight: 500;
+        opacity: 100%;
+        
+        /* font-family: "Fira Sans", sans-serif!important; */
+    }
+    
+    .nav li{
+        margin-right: 22px;
+    }
+    
+    .nav li:last-child{
+        margin-right: 0px;
+    }
+
+    
+    .logo img{
+        width: 120px;
+    }
+    
+    .btnContatos a{
+        width: 190px;
+        height: 22px;
+        border: 1px solid #fff;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        font-weight: 500;
+        font-size: 13px;
+        opacity: 100%;
+    }
+    
+    .slide{
+        position: relative;
+    }
+    
+    .blinhas{
+        position: absolute;
+        border: 0px solid #fff;
+        height: 100px;
+        width: 20px;
+        top: 50%;
+        right: 200px;
+    }
+    
+    .blinhas ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+    
+    .blinhas ul li{
+        width: 7px;
+        height: 7px;
+        border-radius: 100%;
+        border: 1px solid #fff;
+        cursor: pointer;
+    }
+    
+    
+    .blinhas ul li:nth-child(1){
+        background-color: #fff;
+    }
+
+    .textoPublicidadeBannner{
+        width: 600px;
+        top: 0px;
+        left: 200px;
+        border: 0px solid black;
+        transition: all .7s ease;
+    }
+    
+    
+    .textoPublicidadeBannner p, .textoPublicidadeBannner div, .textoPublicidadeBannner h2{
+        color: #fff;
+    }
+    
+    .textoPublicidadeBannner div{
+        color: #fff;
+    }
+    
+    .textoPublicidadeBannner span{
+        color: #fff;
+    }
+    
+    .textoPublicidadeBannner h2{
+        font-size: 1rem;
+        font-weight:  normal;
+    }
+    
+    .textoPublicidadeBannner p{
+        font-size: 3rem;
+        color: #fff;
+        line-height: 50px;
+        text-transform: capitalize;
+    }
+    
+    .textoPublicidadeBannner div{
+        margin-top: 20px;
+        font-size: 1rem;
+    }
+    
+    .imgsRolando{
+        display: flex;
+        overflow: hidden;
+        width: 300%;
+        justify-content: flex-start;
+        transition: all .5s ease;
+    }
+    
+    .imagensSlide{
+        transition: all .5s ease;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .imagensSlide:first-child{
+    
+    }
+    
+    .imagensSlide:nth-child(2){
+        background-image: url(../imgs/banner/l2.jpeg);
+    }
+    
+    .imagensSlide:nth-child(3){
+        background-image: url(../imgs/banner/l3.png);
+    }
+    
+    .kfj{
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .textoPublicidadeBannner p b{
+        color: #fff;
+    }
+    
+    .imagensSlide:nth-child(2) h2{
+        color: #fff;
+        font-weight: 700;
+    }
+    
+    .imagensSlide:nth-child(2) p{
+        color: #fff;
+    }
+    
+    .imagensSlide:nth-child(2) span{
+        color: #fff;
+        font-weight: 700;
+    }
+    
+    .apresetacao{
+        padding: 40px 200px;
+        display: flex;
+        align-items: center;
+        margin-top: 60px;
+    }
+    
+    .apresetacao .imgRepre{
+        margin-left: 40px;
+    }
+    
+    .apresetacao .imgRepre img{
+        width: 520px;
+    }
+    
+    .corpoApresentaocao h2{
+        font-size: 1.5rem;
+        line-height: 45px;
+        width: 400px;
+        color: #222;
+    }
+    
+    .corpoApresentaocao p{
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 30px;
+        color: #777777;
+        text-align: justify;
+    }
+    
+    .btnSolucoes{
+        border-radius: 20px;
+    
+        width: 250px!important;
+        height: 40px;
+        background-color: var(--principal);
+        border: 0px;
+        outline: var(--principal);
+        color: #fff;
+        font-size: 14px;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: capitalize;
+        border: 2px solid var(--principal);
+    }
+    
+
+    
+    .servicos{
+        margin-top: 120px;
+        padding: 0px 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .servicos h2{
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #222;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    
+    .servicos p{
+        text-align: center;
+        margin-top: 5px;
+        font-size: 13px;
+        line-height: 25px;
+        color: #777777;
+        width: 800px;
+    }
+    
+    .defire{
+        
+        display: flex;
+        justify-content: center;
+        background-image: url(../imgs/any/bannnerPuv2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: black;
+        min-height: 600px;
+    }
+    .abrigaDefire{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 70px 200px;
+        background-color: rgba(0, 0, 0, 0.4);
+        width: calc(100% - 400px);
+        flex-direction: column;
+    }
+    
+    .bolinhaSite h2, .bolinhaSite p{
+        color: #fff;
+        text-align: center;
+        opacity: 90%;
+    }
+    
+    .bolinhaSite p{
+        width: 700px;
+        font-size: 13px;
+    }
+    
+    .bolinhaSite h2{
+        font-size: 1.5rem;
+    }
+    
+    .bolinhaSite img{
+        width: 250px;
+    }
+    
+    .defire ul{
+        margin-top: 50px;
+    }
+    
+    .defire ul li{
+        width: 218px;
+        margin-left: 40px;
+        background-color: #fff;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+    
+    .defire ul li:first-child{
+        margin-left: 0px;
+    }
+    
+    .defire ul li h2{
+        font-size: 4rem;
+        color: #222;
+        display: none;
+    }
+    
+    .defire ul li h3{
+        font-size: 1rem;
+        color: #222;
+        text-align: center;
+    }
+    
+    .defire ul li p{
+        color: #777;
+        font-size: 13px;
+        margin-top: 10px;
+        text-align: center;
+        border: 0px solid black;
+        height: 90px;
+        width: 190px;
+        word-wrap: break-word;
+        hyphens: auto;
+    }
+    
+    .def ul{
+        display: flex;
+        align-items: flex-start;
+    }
+    .def ul li:nth-child(2){
+        margin-top: 0px;
+    }
+    
+    .def ul li:nth-child(3){
+        margin-top: 0px;
+    }
+    
+    .servicos2{
+        background-image: url(../imgs/banner/fd.jpeg);
+        background-position: end;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center!important;
+        justify-content: center!important;
+    
+    }
+    
+    .servicos2 h2{
+        color: #fff;
+        width: 400px;
+    }
+    
+    .servicos2 p{
+        width: 1000px;
+        color: #fff;
+        font-size: 13px;
+    }
+    
+    .conteinerCard{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .conteinerCard .card{
+        height: 320px;
+        width: 260px;
+        border: 0px solid black;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        transform: rotateY(180deg);
+        border-radius: 10px;
+        position: relative;
+    }
+    
+    .tituloCardCar{
+        position: absolute;
+        bottom: 20px;
+        transform: rotatey(180deg);
+        color: #fff;
+        z-index: 0;
+        
+    }
+    
+    
+    .cards{
+        padding: 40px 200px;
+        width: calc(100% - 400px);
+        overflow: hidden;
+    }
+    
+    .conteinerCard .card .car{
+        height: 320px;
+        width: calc(100% - 15px);
+        border: 0px solid black;
+        background-color: #222;
+        transition: all .5s ease-in-out;
+        visibility: hidden;
+        overflow: hidden;
+        /* transform: rotateY(180deg); */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 0px 15px;
+        z-index: 1;
+    }
+    
+    .fotoCar{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        border-radius: 100%;
+        border: 0px solid black;
+        margin-top: 10px;
+    }
+    .fotoCar img{
+        width: 75px;
+    }
+    
+    .conteCar{
+        padding: 10px 0px;
+        text-align: center;
+        font-size: 13px;
+        color: #777;
+    }
+    
+    .car a{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        background-color: var(--principal);
+        color: #fff;
+        font-size: 13px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .perf{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        border: 0px solid black;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .perf h2{
+        font-size: 1rem;
+        color: #222;
+    }
+    
+    
+    .bolinhasCards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .bolinhasCards .bor{
+        width: 9px;
+        height: 9px;
+        border: 1px solid #adadad;
+        border-radius: 100%;
+        cursor: pointer;
+        display: none;
+    }
+    .bolinhasCards .bor:first-child{
+        margin-right: 5px;
+        background-color: var(--principal);
+        border: 1px solid var(--principal);
+    }
+    
+    
+    .ca{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        transition: all .5s ease;
+    }
+    
+    .conteinerCard{
+        width: 100%;
+        transition: all .5s ease;
+    }
+    
+    .oqueFazemos{
+    
+    }
+    
+    .clientesServicos h2{
+        color: #222;
+        font-size: 1.5rem;
+    }
+    
+    .clientesServicos{
+        background-color: #f5f5f5;
+        border-top: 1px solid #ddd;
+        padding-top: 50px;
+        
+    }
+    
+    .parceiros{
+        background-color: #f5f5f5;
+        padding: 0px 200px;
+    }
+    
+    .parceiros ul::-webkit-scrollbar{
+        background-color: #efefef;
+        
+        height: 4px;
+        border-radius: 4px;
+    }
+    
+    .parceiros ul::-webkit-scrollbar-thumb{
+        border-radius: 4px;
+        background-color: #ddd;
+    }
+    
+    
+    
+    .quemSomos{
+        background-color: #f5f5f5;
+        min-height: 400px;
+        border-top: 1px solid #ddd;
+        margin-top: 60px;
+        padding: 100px 0px;
+    }
+    
+    .quemDiv{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 0px solid black;
+        min-height: 350px;
+        padding: 0px 200px;
+    }
+    
+    .quemDiv h2{
+        margin-bottom: 30px;
+        display: none;
+    }
+    
+    .textoQuemSomos{
+        border: 0px solid black;
+        width: calc(100% - 580px);
+        margin-left: 30px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .textoQuemSomos h2{
+        font-size: 1.5rem;
+        color: #222;
+        text-align: center;
+        margin-bottom: 15px;
+        display: block;
+    }
+    
+    .textoQuemSomos p{
+        text-align: justify;
+        font-size: 14px;
+        line-height: 35px;
+        color: #777;
+        text-transform: capitalize;
+    }
+    
+    .imagemQuemSomos{
+        width: 600px;
+        height: 400px;
+        border: 0px solid black;
+        background-image: url(../imgs/any/retratov2.png);
+        background-position: start;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 2px;
+    }
+    
+    .parceiros ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+        overflow: scroll;
+        overflow-y: hidden;
+        width: 100%;
+        border: 0px solid black;
+        
+    }
+    
+    .parceiros ul li{
+        margin-right: 40px;
+    }
+    
+    .parceiros ul li:last-child{
+        margin: 0px;
+    }
+    .parceiros ul li img{
+        width: 70px;
+    }
+    
+    .contatos{
+        padding: 100px 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .headerFormulario h2{
+        font-size: 1.2rem;
+        color: #222;
+    }
+    
+    .headerFormulario p{
+        font-size: 12px;
+    }
+    
+    .camposFormulario{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form{
+        border: 0px solid black;
+        width: 500px;
+    }
+    
+    .camposFormulario input{
+        margin-top: 15px;
+        text-indent: 15px;
+        height: 40px;
+        background-color: #f5f5f5;
+        border: 0px;
+        outline: 0px;
+        padding: 5px 2px;
+        font-size: 12px;
+    }
+    
+    .camposFormulario input:focus{
+        outline: 1px solid var(--principal);
+    }
+    
+    .camposFormulario textarea{
+        margin-top: 15px;
+        background-color: #f5f5f5;
+        border: 0px;
+        outline: 0px;
+        text-indent: 15px;
+        padding: 10px 2px;
+        max-width: 100%;
+        min-width: 100%;
+        max-height: 120px;
+        min-height: 120px;
+        font-size: 12px;
+    }
+    
+    .camposFormulario textarea:focus{
+        outline: 1px solid var(--principal);
+    }
+    
+    
+    .camposFormulario input[type="submit"]{
+        background-color: var(--principal);
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .imagemContactohd{
+        margin-left: 50px;
+        width: 400px;
+        height: 400px;
+        border: 0px solid black;
+    }
+    
+    .imatgeSvg{
+        width: 100%;
+        height: 250px;
+        border: 0px solid black;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+    }
+    
+    .infoContato li{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .infoContato li img{
+        width: 11px;
+    }
+    
+    .infoContato li span{
+        margin-left: 5px;
+        font-size: 11px;
+        font-weight: 550;
+        color: #222;
+    }
+    .imhgdIcon{
+        width: 25px;
+        height: 25px;
+        border: 1px solid var(--principal);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100%;
+    }
+    
+    .silideCelular{
+        padding: 100px 200px;
+        border: 0px solid black;
+        min-height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .celularSlide{
+        margin-left: 40px;
+        height: 550px;
+        width: 270px;
+        border: 0px solid black;
+        background-image: url(../imgs/any/celularMockv3.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .capaCelular{
+       
+        height: 540px;
+        width: 100%;
+        border: 0px solid black;
+        
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-size:cover;
+        transition: all .5s ease;
+        /* margin-bottom: 50px; */
+    }
+    
+    .cellSlidesd{
+        height: 520px;
+        margin-left: 4px;
+        margin-top: 2px;
+        width: 245px;
+        position: relative;
+        border-radius: 30px;
+        overflow: hidden;
+        transition: all .5s ease;
+        border: 0px solid red;
+       
+    }
+    
+    .conteuDTex{
+        height: 400px;
+        width: 600px;
+        border: 0px solid black;
+    }
+    
+    .abrigaMj{
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        margin-top: 20px;
+        border: 0px solid black;
+    }
+    
+    .silideCelular h2{
+        font-size: 2rem;
+        display:  none;
+    }
+    
+    .conteuDTex h2{
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 30px;
+        font-size: 1.7rem;
+        text-align: center;
+        color: #222;
+    }
+    .conteuDTex ul{
+        margin-top: 0px;
+    }
+    
+    .conteuDTex ul li{
+        display: flex;
+        align-items: center;
+        border: 0px solid black;
+        justify-content: space-between;
+        margin-top: 20px;
+        transition: all .5s ease;
+    }
+    
+    .conteuDTex ul li .logoFotos{
+        width: 75px;
+        height: 75px;
+        border: 1px solid #ddd;
+        overflow: hidden;
+        border-radius: 100%;
+        margin-right: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 50%;
+        transition: all .5s ease;
+    }
+    
+    .conteuDTex ul li:nth-child(2) .logoFotos{
+        background-size: 80%;
+    }
+    
+    .conteuDTex ul li .logoFotos img{
+        width: 100%;
+    }
+    
+    .conteuDTex ul li .textdesfa{
+        width: calc(100% - 100px);
+        border: 0px solid red;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0px;
+        padding-left: 15px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        transition: all .5s ease;
+    }
+    
+    .conteuDTex ul li:nth-child(1) .textdesfa{
+        box-shadow: rgba(99, 99, 99, 0.2) 2px 1px 2px 1px;
+        border: 0px solid black;
+        
+    }
+    
+    .conteuDTex ul li:nth-child(1) .logoFotos{
+        border: 2px solid var(--principal);
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px -1px, rgba(0, 0, 0, 0.06) 0px 2px 8px -1px;
+    }
+    
+    
+    .conteuDTex ul li:nth-child(1) .textdesfa h3{
+        font-size: 1.1rem;
+        color: #222;
+        text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2);
+    }
+    
+    .conteuDTex ul li .textdesfa span{
+        font-size: 12px;
+        width: calc(100% - 100px);
+        color: #777;
+        transition: all .5s ease;
+    }
+    
+    .soluCld{
+        font-size: 14px;
+        color: #222;
+        transition: all .5s ease;
+    }
+    
+    .soluCld p{
+        font-size: 12px;
+        color: #777;
+        font-weight: 500;
+        transition: all .5s ease;
+    }
+    
+    .lastTextos{
+        border: 0px solid white;
+        width: 500px;
+        transition: all .5s ease;
+    }
+    
+    .iconsServicos{
+        height: 250px;
+        border: 0px solid black;
+    }
+    
+    .iconsServicos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 200px;
+    }
+    
+    
+    
+    .iconsServicos li{
+        width: 250px;
+        height: 200px;
+        border: 0px solid black;
+        margin-right: 20px;
+    }
+    
+    .iconsServicos li:last-child{
+        margin-right: 0px;
+    }
+    
+    .iconsServicos ul{
+        display: flex;
+        border: 0px solid black;
+        width: 100%;
+        overflow: auto;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .iconsServicos ul::-webkit-scrollbar{
+        background-color: #eee;
+        
+        height: 6px;
+        border-radius: 4px;
+    }
+    
+    .iconsServicos ul::-webkit-scrollbar-thumb{
+        border-radius: 4px;
+        background-color: #ccc;
+    }
+    .iconsServicos ul li a{
+        min-width: 250px;
+        height: 190px;
+        border: 0px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .iconOferecer{
+        margin-top: 10px;
+        border: 0px solid black;
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .iconOferecer img{
+        width: 100%;
+    }
+    
+    .iconsServicos ul li a h3{
+        color: #222;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    
+    .iconsServicos ul li a p{
+        width: 235px;
+        height: 80px;
+        border: 0px solid black;
+        margin-top: 10px;
+        overflow: hidden;
+        text-align: center;
+        font-size: 12px;
+        color: #777;
+        font-weight: 400;
+        word-wrap: break-word;
+        hyphens: auto;
+    }
+    
+    .paragrafoServico{
+        max-width: 700px;
+        word-wrap: break-word;
+        border: 0px solid black;
+    }
+    
+    .humburguer{
+    
+        width: 25px;
+        min-height: 0px;
+        display: none;
+        border: 0px solid white;
+        top: -50px;
+        left: 15px;
+        transition: all .4s ease;
+        z-index: 99999;
+    }
+    
+    .humburguer span{
+        width: 100%;
+        height: 1px;
+        background-color: white;
+        border-radius: 0px;
+        margin-top: 5px;
+    
+        border-radius: 10px;
+        
+    }
+    
+    .humburguer label{
+        
+        display: flex;
+        align-items: space-between;
+        justify-content: center;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    
+    .menuSuspenso{
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.4);
+        width: 100%;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        z-index: 99999;
+        width: 0px;
+        overflow: hidden;
+        transition: all .4s ease;
+    }
+    
+    .menuSuspenso .menuSu{
+        height: 100vh;
+        width: 300px;
+        background-color: #eee;
+    }
+    
+    .hund{
+        cursor: pointer;
+        border: 0px solid black;
+        padding: 30px 35px;
+        padding-bottom: 10px;
+        font-size: 1.2rem;
+    }
+    
+    .menuLista{
+        border: 0px solid black;
+        padding: 10px 30px;
+    
+    }
+    
+    .menuLista li a{
+        display: block;
+        font-size: 12px;
+        font-weight: 500;
+        color: #333;
+    }
+    
+    .menuLista li{
+        padding: 5px 5px;
+        margin-bottom: 5px;
+        border-bottom: 1px solid #eee;
+        border-radius: 0px;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 1px -1px, rgba(0, 0, 0, 0.02) 0px 1px 1px -1px;
+    }
+    
+    .menuLista li:last-child .especificomenu{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        transition: all .5s ease-in-out;
+    }
+    
+    .menuLista li:last-child .especificomenu img{
+        width: 17px;
+        margin-right: 10px;
+        transform: rotate(180deg);
+        transition: all .5s ease-in-out;
+    }
+    .menuLista li:last-child .especificomenu:focus span{
+        color: var(--principal);
+    }
+    
+    .subMenu{
+        height: 0px;
+        overflow: hidden;
+        transition: all .4s ease;
+        margin-top: 10px;
+    }
+    
+    .subMenu div{
+        display: flex;
+        align-items: center;
+        padding: 0px 5px;
+        width: calc(100% - 10px);
+        
+    }
+    .subMenu div img{
+        width: 12px;
+        margin-right: 7px;
+    }
+    .subMenu div span{
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .menuLista li:last-child .especificomenu:focus .subMenu{
+        height: 200px;
+        visibility: visible;
+    }
+    
+    .contatoSec{
+        min-height: 300px;
+        border: 0px solid black;
+        padding: 60px 200px;
+        margin-top: 20px;
+        border-top: 1px solid #f5f5f5;
+        box-shadow: rgba(0, 0, 0, 0.03) 0px 2px 2px 0px inset;
+    }
+    
+    
+    .contatoSec .vontacteS h2{
+        text-align: center;
+        color: #222;
+        font-size: 1.5rem;
+    }
+    
+    .contatoSec .vontacteS p{
+        font-size: 10px;
+        font-weight: 500;
+        text-align: center;
+        color: #888;
+        margin-bottom: 10px;
+    }
+    
+    .formularioContacto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .formularioContacto form .inpuEnMsg{
+        display: flex;
+        border: 0px solid black;
+        height: 150px;
+    }
+    
+    .formularioContacto form .inpuEnMsg .inputsNor{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 20px;
+        
+    }
+    
+    .formularioContacto form .inpuEnMsg textarea{
+        width: 350px;
+        max-width: 350px;
+        min-width: 350px;
+        max-height: 135px;
+        min-height: 135px;
+        text-indent: 15px;
+        border: 1px solid #ccc;
+        font-size: 13px;
+        padding-top: 15px;
+        color: #333;
+    }
+    
+    .formularioContacto form .inpuEnMsg .inputsNor input{
+        height: 35px;
+        width: 350px;
+        text-indent: 15px;
+        border: 1px solid #ccc;
+        font-size: 13px;
+        
+        color: 333;
+    }
+    
+    .formularioContacto form .inpuEnMsg .inputsNor input:focus, .formularioContacto form .inpuEnMsg textarea:focus{
+        outline: 1px solid #999;
+        border: 0px solid #ccc;
+        transition: all 0s ease;
+    }
+    
+    .kjdBtn{
+        border: 0px solid black;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+    
+    .kjdBtn input{
+        width: 190px;
+        height: 28px;
+        border: 0px;
+        background-color: var(--principal);
+        color: #fff;
+        font-weight: 500;
+        font-size: 13px;
+        cursor: pointer;
+    }
+    
+    .faqRed{
+        padding: 60px 200px;
+        margin-top: 40px;
+        min-height: 300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        border: 0px solid black;
+    }
+    
+    
+    .faqPer{
+        border: 0px solid black;
+        width: calc(100% - 400px);
+        min-height: 300px;
+    }
+    
+    
+    
+    .faqPer h2{
+        font-size: 1.5rem;
+        color: #222!important;
+        margin-bottom: 20px;
+    }
+    
+    .faqPer ul li{
+        display: flex;
+        align-items: center;
+        border: 1px solid #ddd;
+        height: 40px;
+        padding: 10px 15px;
+        border-radius: 0px;
+    }
+    
+    .esContPrinc{
+        height: 0px;
+        border: 0px solid #ccc;
+        border-top: 0px;
+        border-radius: 0px;
+        padding: 0px 50px;
+        font-size: 13px;
+        overflow: hidden;
+        transition: all .4s ease;
+    }
+    
+    .esContPrinc{
+    
+    }
+    
+    .faqPer ul li .textoFaq{
+        font-size: 13px;
+        margin-left: 20px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    
+    .iconExpandi{
+        color: var(--principal);
+        font-weight: 500;
+        font-size: 1.7rem;
+        cursor: pointer;
+    }
+    
+    .faqPer ul li{
+        margin-top: 15px;
+    }
+
+    
+    .redesFa{
+        border: 0px solid black;
+        height: 300px;
+        width: 380px;
+        margin-left: 40px;
+    }
+    
+    .redesFa h3{
+        font-size: 12px;
+        font-weight: 700;
+        color: #222;
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+    
+    .redesFa ul li{
+        background-color: #eee;
+        width: 45px;
+        height: 45px;
+        border-radius: 100%;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 15px;
+    }
+    
+    .redesFa ul{
+        display: flex;
+    }
+    
+    .redesFa ul li a{
+        width: 45px;
+        height: 45px;
+        border-radius: 100%;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .redesFa ul li a img{
+        width: 20px;
+    }
+    
+    .citacaoFrase{
+        border: 0px solid black;
+        height: 100px;
+        margin-top: 20px;
+        border-top: 1px solid #f5f5f5;
+        padding-top: 20px;
+        
+    }
+    
+    .citacaoFrase .citaPara{
+        font-size: 13px;
+        text-align: justify;
+        line-height: 20px;
+        position: relative;
+        border: 0px solid black;
+        padding: 10px 0px;
+        padding-left: 10px;
+        color: #777;
+    }
+    
+    .citacaoFrase .aspas{
+        color: var(--principal);
+        font-size: 1.7rem;
+        font-weight: normal;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    
+    .citacaoFrase .aspas:first-child{
+        left: -5px;
+        top: 15px;
+        color: var(--principal);
+    }
+    
+    .citacaoFrase .aspas:last-child{
+        bottom: 0px;
+        right: 0px;
+        color: var(--principal);
+        display: none;
+    }
+    
+    
+    
+    
+    .assinCita{
+        margin-top: 10px;
+        border: 0px solid black;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .assinaturaCitacao{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    .assinaturaCitacao span:first-child{
+        color: #222;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    
+    .assinaturaCitacao span:last-child{
+        font-size: 10px;
+        color: var(--principal);
+    }
+    
+    .produtosWeb{
+        cursor: pointer;
+    }
+    
+    
+    footer ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    footer ul li{
+        width: 24%;
+        min-height: 100px;
+        border: 0px solid white;
+    }
+    
+    footer ul li h2{
+        font-size: 14px;
+        color: #eee;
+        font-weight: 500;
+    }
+    footer{
+        background-color: #2e3641;
+        min-height: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 200px;
+        padding-top: 60px;
+        justify-content: center;
+    }
+    
+    .barrV{
+        height: 15px;
+        margin-top: 50px;
+        border-top: 1px solid #777;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30px;
+        font-size: 11px;
+        color: #aaa;
+    }
+    
+    .textOther{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+    
+    .textOther a{
+        color: #aaa;
+        margin-top: 4px;
+        font-size: 11px;
+        font-weight: normal;
+    }
+    
+    footer ul li:last-child .textOther a{
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    footer ul li:last-child .textOther a img{
+        width: 12px;
+        margin-right: 8px;
+    }
+    
+    footer ul li:last-child .textOther a span{
+        color: #aaa;
+        margin-top: 4px;
+        font-size: 11px;
+        font-weight: normal;
+    }
+    
+    .btnWhatssapGeral{
+        position: fixed;
+        right: 200px;
+        bottom: 20px;
+        z-index: 9999;
+    }
+    
+    
+    .whatssapBtn{
+        position: relative;
+        z-index: 9999;
+        right: 0;
+        bottom: 0px;
+        border: 0px solid black;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 15px;
+        color: pointer;
+    }
+    
+    .whatssapBtn .whatssapBtn2{
+        border: 0px solid black;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        color: pointer;
+    }
+    
+    .whatssapBtn img{
+        width: 40px;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 8px;
+        border-radius: 100%;
+    }
+    
+    #triangle {
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 17px solid #f1f1f1; /* Ajuste a cor e o tamanho conforme necessário */
+        transform: rotate(180deg);
+        outline: 0px solid #ccc;
+        position: absolute;
+        bottom: -20px;
+        right: 15px;
+        z-index: 9;
+    }
+    .caixaMsg{
+        width: 180px;
+        height: 50px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 0px solid #fff;
+        /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+        border-radius: 4px;
+        z-index: 999;
+        position: absolute;
+    }
+    
+    .caixaMsg span{
+        color: #222;
+        font-size: 12px;
+    }
+    
+    .mensagem{
+        position: relative;
+        width: 180px;
+        height: 40px;
+        right: 0;
+        top: 0;
+    }
+    
+    .tirarMensagem{
+        color: #efefef;
+        position: relative;
+        right: 0;
+        width: 100%;
+        text-align: end;
+        cursor: pointer;
+        top: -2px;
+    }
+    
+    
+    .tirarMensagem2{
+        position: absolute;
+        right: 15px;
+        top: 5px;
+        cursor: pointer;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    
+    .mensagemCard{
+        background-color: #fff;
+        height: 0px;
+        width: 350px;
+        position: absolute;
+        border-radius: 10px;
+        bottom: 50px;
+        right: 0px;
+        z-index: 999999;
+        overflow: hidden;
+        transition: all .5s ease;
+    }
+    
+    .jkdCard{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 25px;
+        transition: all .5s ease;
+    }
+    
+    .perfiCard{
+        background-color: #26c281;
+        height: 150px;
+    }
+    
+    .classeBase{
+        height: 200px;
+        position: absolute;
+    }
+    
+    .perfiCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .identificacao{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        opacity: 85%;
+    }
+    
+    .identificacao span{
+        font-size: 12px;
+        color: #fff;
+    }
+    
+    .identificacao h3{
+        font-size: 15px;
+        color: #fff;
+        font-weight: 500;
+        margin-bottom: 2px;
+    }
+    
+    .fotoPessoa{
+        width: 50px;
+        height: 50px;
+        border: 2px solid #fff;
+        margin-bottom: 5px;
+        border-radius: 100%;
+        position: relative;
+        background-image: url(../imgs/perfilWhats/perfil.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 200%;
+    }
+    
+    .bolinhaFotoPessoa{
+        position: absolute;
+        bottom: -1px;
+        right: 8px;
+        width: 7px;
+        height: 7px;
+        border: 2px solid #fff;
+        border-radius: 100%;
+        background-color: #26c281;
+    
+    }
+    
+    .btnCh{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .btnCh a{
+        width: 290px;
+        height: 28px;
+        border-radius: 8px;
+        background-color: #26c281;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 2133px){
+    .nav li a, .btnContatos a{
+        color: #fff;
+        font-size: 1.1rem;
+    }
+    .contatosInfos ul li span{
+        font-size: 15px;
+    }
+
+    .btnContatos a{
+        width: 200px;
+        height: 32px;
+    }
+}
+
+@media (min-width: 2200px){
+    .faqPer ul{
+        border: 0px solid black;
+        max-width: 1200px;
+        
+    }
+
+    .faqRed{
+        justify-content: center;
+        border: 0px solid black;
+    }
+}
+
+@media (min-width: 2400px){
+    .nav li a, .btnContatos a{
+        color: #fff;
+        font-size: 1.1rem;
+    }
+    .contatosInfos ul li span{
+        font-size: 16px;
+    }
+
+    .info img{
+        width: 18px;
+    }
+
+    footer{
+        padding: 20px 400px;
+    }
+
+    .info{
+        padding: 0px 400px;
+        width: calc(100% - 800px);
+    }
+
+    nav{
+        padding: 5px 400px;
+        width: calc(100% - 800px);
+        
+    }
+
+    .contatoSec{
+        padding: 60px 400px;
+    }
+
+    .faqRed{
+        padding: 60px 400px;
+    }
+
+    .faqPer{
+        width: calc(100% - 800px);
+    }
+
+    .apresetacao{
+        padding: 40px 400px;
+    }
+
+    .parceiros{
+        background-color: #f5f5f5;
+        padding: 0px 400px;
+    }
+
+    .quemDiv{
+        padding: 0px 400px;
+    }
+
+    .textoPublicidadeBannner{
+        left: 400px;
+    }
+    .slide{
+        max-height: 85vh;
+    }
+
+    .textoPublicidadeBannner h2, .textoPublicidadeBannner div{
+        font-size: 1.5rem;
+    }
+
+    .textoPublicidadeBannner p {
+        font-size: 3.5rem;
+    }
+
+    .textoPublicidadeBannner {
+        width: 750px;
+    }
+
+    .conteuDTex {
+        width: 850px;
+    }
+
+    .soluCld {
+        font-size: 1.2rem;
+    }
+
+    .soluCld p{
+        font-size: 1rem;
+    }
+    .conteuDTex ul li .textdesfa span{
+        font-size: 1rem;
+        width: calc(100% - 20px);
+    }
+
+    .conteuDTex ul li .textdesfa h3{
+        font-size: 1.5rem;
+    }
+
+    .conteuDTex ul li:nth-child(1) .textdesfa h3{
+        font-size: 1.5rem;
+    }
+
+    .conteuDTex ul li .logoFotos {
+        width: 100px;
+        height: 100px;
+    }
+
+    .defire ul li p{
+        font-size: 1rem;
+    }
+
+    .bolinhaSite p{
+        font-size: 1rem;
+    }
+
+    .iconsServicos ul li a h3{
+        font-size: 1.1rem;
+    }
+
+    .iconsServicos ul li a p{
+        font-size: 15px;
+    }
+
+    .iconsServicos ul li{
+        width: 300px;
+    }
+
+    .iconsServicos ul li a p {
+        width: 280px;
+    }
+
+    .servicos p{
+        font-size: 1rem;
+    }
+
+    .iconsServicos ul li a{
+        width: 300px;
+    }
+
+    .redesFa h3{
+        font-size: 1rem;
+    }
+
+    .citacaoFrase .citaPara{
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    .redesFa{
+        width: 500px;
+    }
+
+    .contatoSec .vontacteS p{
+        font-size: 1rem;
+    }
+
+    footer ul li h2{
+        font-size: 1.1rem;
+    }
+
+    .textOther a{
+        font-size: 15px;
+    }
+
+    .caixaMsg{
+        width: 320px;
+        height: 60px;
+        
+    }
+
+    .mensagem{
+        width: 320px;
+        height: 40px;
+    }
+
+    #triangle{
+        bottom: -30px;
+    }
+
+    .whatssapBtn{
+        bottom: 0px;
+    }
+
+    .jkdCard{
+        margin-bottom: 35px;
+    }
+
+    .caixaMsg span{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 2560px){
+    .defire{
+        min-height: 800px;
+    }
+}

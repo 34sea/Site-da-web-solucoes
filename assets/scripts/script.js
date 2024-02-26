@@ -375,3 +375,5 @@ function tira(){
     }
     msgWhats = !msgWhats
 }
+
+alert(window.innerWidth)

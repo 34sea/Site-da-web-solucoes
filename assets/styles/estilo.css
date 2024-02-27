@@ -105,7 +105,7 @@ nav{
     align-items: center;
     border: 0px solid white;
     transition: all .2s ease;
-    
+    height: 70px;
 }
 
 .logoMenu{
@@ -1442,7 +1442,7 @@ footer ul li a{
     margin-top: 40px;
     min-height: 300px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
     border: 0px solid black;
 }

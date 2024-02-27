@@ -139,6 +139,7 @@ function linM(cor){
 let coordenadasCelular = document.getElementById("cellSlidesd").getBoundingClientRect().height;
 let classeBase = document.getElementById("classeBase").getBoundingClientRect().height;
 document.addEventListener("scroll", ()=>{
+    eventoAtivarChega()
     coordenadasCelular = document.getElementById("cellSlidesd").getBoundingClientRect().height;
     classeBase = document.getElementById("classeBase").getBoundingClientRect().height;
     if(window.pageYOffset>=100){
@@ -291,13 +292,13 @@ function slideVhd(){
 
 }
 
-silideCelular.addEventListener("mouseover", ()=>{
-    tmpK = setInterval(slideVhd, 3000)
-})
+// silideCelular.addEventListener("mouseover", ()=>{
+//     tmpK = setInterval(slideVhd, 3000)
+// })
 
-silideCelular.addEventListener("mouseout", ()=>{
-    clearInterval(tmpK)
-})
+// silideCelular.addEventListener("mouseout", ()=>{
+//     clearInterval(tmpK)
+// })
 
 let especificomenu = document.querySelector(".especificomenu")
 let subMenu = document.querySelector(".subMenu")
@@ -377,3 +378,16 @@ function tira(){
 }
 
 // alert(window.innerWidth)
+
+let coordenadassilideCelular= document.getElementById("silideCelular").getBoundingClientRect().top;
+console.log(coordenadassilideCelular)
+let chegoujn = false
+function eventoAtivarChega(){
+    if(!chegoujn){
+        if(window.pageYOffset>=coordenadasCelular){
+            tmpK = setInterval(slideVhd, 5000)
+        }
+        chegoujn=true
+    }
+    
+}

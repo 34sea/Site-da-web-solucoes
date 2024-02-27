@@ -1449,6 +1449,15 @@
     .textoPublicidadeBannner{
         max-width: calc(100% - 80px);
         border: 0px solid white;
+        position: absolute;
+        top: 35%;
+       
+    }
+    .imgsRolando{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0px solid white;
     }
     .textoPublicidadeBannner h2{
         text-align: center;

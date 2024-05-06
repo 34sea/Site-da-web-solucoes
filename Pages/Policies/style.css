@@ -1,9 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*:not(i,span){
+    font-family: "Poppins", sans-serif;
+}
+
+
+:root{
+    --paragrafos: #404040;
+    --principal: #00D084;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    color: var(--paragrafos);
+}
+
 .nav{
     position: fixed;
-    background-color: #fff;
+    background-color: #2e3641;
+    top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
     
 }
 
-main{
-    margin-top: 100px;
+.info{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 40px;
+    width: calc(100% - 400px);
+    background-color: #fff;
 }
+body{
+    background-color: #fff;
+}
+header{
+    background-color: #fff;
+    height: 40px;
+}
+main{
+    padding: 10px 200px;
+    margin-top: 60px;
+
+}
+
+.nav li a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 100%;
+    
+    /* font-family: "Fira Sans", sans-serif!important; */
+}
+
+.btnContatos a{
+    width: 190px;
+    height: 28px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.politicasL{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 30px 0px;
+}
+
+#policies{
+    background-color: #efefef;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    color: #2e3641;
+    text-transform: capitalize;
+}
+
+.paragrafosTexto{
+    padding: 10px 20px;
+}
+p, .paragrafosTexto li{
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 30px;
+    margin: 20px 0px;
+    color: #555;
+}
+
+a{
+    color: #2e3641;
+    font-weight: 700;
+}
+
+a:hover{
+    color: #00D084;
+    transition: all ease .5s;
+}
+
+.paragrafosTexto ul li{
+    margin-left: 20px;
+}
+
+h3{
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 1154px){
+    .info, main{
+        width: calc(100% - 200px);
+        padding: 0px 100px;
+    }
+
+    main{
+        margin-top: 70px;
+    }
+
+    .nav{
+        width: calc(100% - 200px);
+        padding: 10px 100px;
+    }
+}
+
+@media (max-width: 814px){
+    .info, main{
+        width: calc(100% - 100px);
+        padding: 0px 50px;
+    }
+
+    main{
+        margin-top: 70px;
+    }
+
+    .nav{
+        width: calc(100% - 100px);
+        padding: 10px 50px;
+    }
+}
+

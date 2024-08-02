@@ -31,11 +31,19 @@ a{
 ul{
     list-style: none;
 }
+h3{
+    font-weight: 550;
 
+}
+
+h2{
+    font-weight: 550!important;
+    font-size: 1.6rem!important;
+}
 .info{
     display: flex;
     align-items: center;
-    height: 35px;
+    height: 45px;
     padding: 0px 200px;
     justify-content: space-between;
     border: 0px solid black;
@@ -71,8 +79,8 @@ ul{
 
 .contatosInfos ul li span{
     font-size: 13px;
-    color: #adadad;
-    font-weight: normal;
+    color: #888;
+    font-weight: 400;
 }
 
 .imagensSlide{
@@ -91,7 +99,16 @@ ul{
 
 }
 
-
+.limpoM{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.466));
+    filter: blur(0px);
+    z-index: 0;
+}
 
 nav{
     padding: 5px 200px;
@@ -124,7 +141,7 @@ nav{
 .nav li a{
     color: #fff;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 430;
     opacity: 100%;
     
     /* font-family: "Fira Sans", sans-serif!important; */
@@ -154,7 +171,7 @@ nav{
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    font-weight: 500;
+    font-weight: 430;
     font-size: 15px;
     opacity: 100%;
 }
@@ -259,7 +276,7 @@ nav{
 }
 
 .imagensSlide:nth-child(2){
-    background-image: url(../imgs/banner/l2.jpeg);
+    background-image: url(../imgs/banner/bannerOlaya.png);
 }
 
 .imagensSlide:nth-child(3){
@@ -420,7 +437,7 @@ nav{
     width: 300px;
     margin-left: 40px;
     background-color: #fff;
-    height: 250px;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -440,7 +457,7 @@ nav{
 }
 
 .defire ul li h3{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: #222;
     text-align: center;
 }
@@ -1014,7 +1031,7 @@ footer ul li a{
 .conteuDTex h2{
     display: block;
     margin-top: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     font-size: 2rem;
     text-align: center;
     color: #222;
@@ -1095,16 +1112,22 @@ footer ul li a{
 }
 
 .soluCld{
-    font-size: 1.1rem;
-    color: #222;
+    font-size: 1rem;
+    color: #000!important;
     transition: all .5s ease;
 }
 
 .soluCld p{
-    font-size: 1rem;
+    font-size: 14px;
     color: #777;
-    font-weight: 500;
+    /* font-weight: 410; */
     transition: all .5s ease;
+}
+
+.soluCld h3{
+    color: #222;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 .lastTextos{
@@ -1320,7 +1343,7 @@ footer ul li a{
 
 .subMenu{
     height: 0px;
-    overflow: hidden;
+
     transition: all .4s ease;
     margin-top: 10px;
 }
@@ -1652,7 +1675,7 @@ footer ul li{
 }
 
 footer ul li h2{
-    font-size: 1rem;
+    font-size: 1rem!important;
     color: #eee;
     font-weight: 500;
 }
@@ -1691,8 +1714,8 @@ footer{
     align-items: center;
     justify-content: center;
     padding-top: 30px;
-    font-size: 11px;
-    color: #aaa;
+    font-size: 13px;
+    color: #ddd;
 }
 
 .textOther{
@@ -1921,4 +1944,69 @@ footer ul li:last-child .textOther a span{
     align-items: center;
     justify-content: center;
     font-size: 13px;
+}
+
+footer ul li a .logoLo{
+    width: 150px;
+}
+
+.redesUlLi{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 0px solid black;
+    width: 100%;
+    min-height: 10px!important;
+}
+
+.redesUlLi img{
+    width: 18px;
+    /* filter: saturate(0); */
+}
+
+.toLu{
+    flex-direction: column;
+}
+
+.redesUlLi a{
+    margin-right: 10px;
+}
+
+.redesUlLi a:last-child{
+    margin-right: 0px;
+}
+
+.toLu h2{
+    margin: 5px 0px;
+}
+
+.lok{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.lok a img{
+    width: 18px!important;
+    /* filter: saturate(0); */
+}
+
+.logoAu{
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.btnContatar{
+    background-color: #00D084;
+    padding: 3px 20px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.cal{
+    margin-top: 10px;
+    display: none;
 }

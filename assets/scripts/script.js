@@ -91,6 +91,9 @@ let humburguer = document.querySelector(".humburguer")
 let hun = true
 let menuSuspenso = document.querySelector(".menuSuspenso")
 let hund = document.querySelector(".hund")
+hund.addEventListener("click", ()=>{
+    fHum()
+})
 humburguer.addEventListener("click", ()=>{
     fHum()
 })
@@ -333,7 +336,7 @@ for(let i=0; i<iconExpandi.length; i++){
     iconExpandi[i].addEventListener("click", ()=>{
         zerarFaq()
         if(verique[i]){
-            esContPrinc[i].style.height = "150px"
+            esContPrinc[i].style.height = "90px"
             esContPrinc[i].style.padding = "10px 50px"
             esContPrinc[i].style.border = "1px solid #ccc"
             
@@ -358,6 +361,8 @@ whatssapBtn.addEventListener("click", ()=>{
 
 tirarMensagem2.addEventListener("click", ()=>{
     tira()
+    // fHum()
+    // alert("ya")
 })
 
 

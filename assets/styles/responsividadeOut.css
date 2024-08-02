@@ -10,7 +10,7 @@
     }
     
     .info img{
-        width: 12px;
+        width: 15px;
     }
     
     .redesInfo{
@@ -37,7 +37,7 @@
     }
     
     .contatosInfos ul li span{
-        font-size: 11px;
+        font-size: 12px;
         color: #adadad;
         font-weight: normal;
     }
@@ -90,7 +90,7 @@
     
     .nav li a{
         color: #fff;
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 500;
         opacity: 100%;
         
@@ -120,7 +120,7 @@
         align-items: center;
         border-radius: 30px;
         font-weight: 500;
-        font-size: 13px;
+        font-size: 14px;
         opacity: 100%;
     }
     
@@ -1158,7 +1158,7 @@
     .menuLista li:last-child .especificomenu img{
         width: 17px;
         margin-right: 10px;
-        transform: rotate(180deg);
+
         transition: all .5s ease-in-out;
     }
     .menuLista li:last-child .especificomenu:focus span{
@@ -1167,7 +1167,7 @@
     
     .subMenu{
         height: 0px;
-        overflow: hidden;
+
         transition: all .4s ease;
         margin-top: 10px;
     }
@@ -1512,7 +1512,6 @@
     
     .textOther{
         display: flex;
-        flex-direction: column;
         margin-top: 5px;
     }
     
@@ -1738,7 +1737,7 @@
         font-size: 13px;
     }
 }
-
+/*Fora*/
 @media (min-width: 2133px){
     .nav li a, .btnContatos a{
         color: #fff;

@@ -1,3 +1,19 @@
+@media (min-height: 1280px){
+    .slide, .imagensSlide{
+        height: calc(70vh - 20px);
+    }
+
+    
+}
+
+@media (max-height: 600px){
+    .slide, .imagensSlide{
+        height: 700px;
+    }
+    
+}
+
+
 @media (max-width: 1772px){
     .imagemQuemSomos {
         width: 700px;
@@ -18,6 +34,45 @@
 
     .textoQuemSomos{
         width: calc(100% - 580px);
+    }
+    
+}
+
+@media (max-width: 1610px){
+    .info{
+        padding: 0px 100px;
+        width: calc(100% - 200px);
+    }
+
+    nav{
+        padding: 5px 100px;
+        width: calc(100% - 200px);
+    }
+
+    .imagensSlide{
+        padding: 0px 100px;
+    
+    }
+
+    .servicos{
+        padding: 0px 100px;
+    }
+
+    .parceiros{
+        padding: 0px 100px;
+    }
+    
+    .clientesServicos h2{
+        margin-top: 40px;
+    }
+    .quemDiv{
+        padding: 0px 100px;
+    }
+    .iconsServicos{
+        padding: 0px 100px;
+    }
+    .textoPublicidadeBannner{
+        left: 100px;
     }
     
 }
